@@ -1,6 +1,6 @@
 # Beamer Teaching Template (Copenhagen-based)
 
-This repository contains a **LaTeX Beamer template** designed for teaching mathematics (R2) and physics.  
+This repository contains a **LaTeX Beamer template** designed for teaching mathematics and physics.  
 It extends the standard *Copenhagen* theme with:
 
 - ✅ **Custom color palette** (`myblue`, `myred`, `mygreen`, `mycyan`)  
