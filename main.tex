@@ -1,0 +1,76 @@
+\documentclass[11pt, aspectratio=169, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usetheme{Boadilla}
+\usetheme{Copenhagen}
+\usepackage{amssymb}
+\usepackage{amsmath, amsfonts, amsthm, graphicx, geometry, lipsum, xcolor} 
+\usepackage{fancyvrb, fancyhdr, minted, siunitx, setspace, hyperref, caption}
+\usepackage{pgfplots, physunits}
+\pgfplotsset{compat=1.18, width=10cm}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\setbeamercovered{transparent}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{navigation symbols}{}
+
+
+% Define colors to exactly match your tcolorboxes
+\definecolor{myblue}{rgb}{0.0,0.0,0.0}   % initialize
+\colorlet{myblue}{black!35!blue}
+
+\definecolor{myred}{rgb}{0.0,0.0,0.0}
+\colorlet{myred}{black!35!red}
+
+\definecolor{mygreen}{rgb}{0.0,0.0,0.0}
+\colorlet{mygreen}{black!35!green}
+
+\definecolor{mycyan}{rgb}{0.0,0.0,0.0}
+\colorlet{mycyan}{cyan}
+
+% In your preamble after defining colors:
+\newcommand{\blueheader}{\setbeamercolor{palette primary}{bg=myblue, fg=white}}
+\newcommand{\redheader}{\setbeamercolor{palette primary}{bg=myred, fg=white}}
+\newcommand{\greenheader}{\setbeamercolor{palette primary}{bg=mygreen, fg=white}}
+\newcommand{\cyanheader}{\setbeamercolor{palette primary}{bg=mycyan, fg=white}}
+
+
+\newtcbtheorem{blue}{}{%
+        theorem name,%
+        colback=white,%
+        colframe=black!35!blue,%
+        fonttitle=\bfseries, title after break={Lemma  -- \raggedleft Continued}%
+    }{blue}
+\newtcbtheorem{red}{}{%
+        theorem name,%
+        colback=white,%
+        colframe=black!35!red,%
+        fonttitle=\bfseries, title after break={Lemma  -- \raggedleft Continued}%
+    }{red}
+\newtcbtheorem{cyan}{}{%
+        theorem name,%
+        colback=white,%
+        colframe=cyan,%
+        fonttitle=\bfseries, title after break={Lemma  -- \raggedleft Continued}%
+    }{cyan}
+\newtcbtheorem{green}{}{%
+        theorem name,%
+        colback=white,%
+        colframe=black!35!green,%
+        fonttitle=\bfseries, title after break={Lemma  -- \raggedleft Continued}%
+    }{green}
+
+\begin{document}
+
+\include{R2-K1A}
+\include{R2-K1B}
+\include{R2-K1C}
+%\include{R2-K1D}
+%\include{R2-K1E}
+
+\end{document}
+
+
