@@ -3,10 +3,10 @@
 This repository contains a $\LaTeX$  Beamer template designed for teaching mathematics and physics.  
 It extends the standard *Copenhagen* theme with:
 
-- ✅ Custom color palette** (`myblue`, `myred`, `mygreen`, `mycyan`)  
-- ✅ Header macros** (`\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`)  
-- ✅ tcolorbox environments** for definitions, theorems, tasks, and examples  
-- ✅ Clean layout with frame numbers and no navigation symbols  
+- ✅ **Custom color palette** (`myblue`, `myred`, `mygreen`, `mycyan`)  
+- ✅ **Header macros** (`\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`)  
+- ✅ **tcolorbox environments** for definitions, theorems, tasks, and examples  
+- ✅ **Clean layout** with frame numbers and no navigation symbols  
 
 ---
 
