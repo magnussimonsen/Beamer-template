@@ -1,12 +1,11 @@
-````markdown
 # Beamer Teaching Template (Copenhagen-based)
 
 This repository contains a **LaTeX Beamer template** designed for teaching mathematics and physics.  
 It extends the standard *Copenhagen* theme with:
 
-- ✅ **Custom color palette** (`myblue`, `myred`, `mygreen`, `mycyan`)  
-- ✅ **Header macros** (`\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`)  
-- ✅ **tcolorbox environments** for definitions, theorems, tasks, and examples  
+- ✅ Custom color palette** (`myblue`, `myred`, `mygreen`, `mycyan`)  
+- ✅ Header macros** (`\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`)  
+- ✅ tcolorbox environments** for definitions, theorems, tasks, and examples  
 - ✅ Clean layout with frame numbers and no navigation symbols  
 
 ---
@@ -21,7 +20,7 @@ It extends the standard *Copenhagen* theme with:
   \frametitle{Example}
   Content here...
   \end{frame}
-````
+  ```
 
 * **Theorem-like boxes**
   Defined with `tcolorbox`, e.g.:
@@ -43,12 +42,12 @@ It extends the standard *Copenhagen* theme with:
 
 ## 📷 Preview
 
-<p align="center"><img src="./images/frame-1.png" alt="Frame 1" width="700"/></p>
-<p align="center"><img src="./images/frame-2.png" alt="Frame 2" width="700"/></p>
-<p align="center"><img src="./images/frame-3.png" alt="Frame 3" width="700"/></p>
-<p align="center"><img src="./images/frame-4.png" alt="Frame 4" width="700"/></p>
-<p align="center"><img src="./images/frame-5.png" alt="Frame 5" width="700"/></p>
-<p align="center"><img src="./images/frame-6.png" alt="Frame 6" width="700"/></p>
+<p align="center"><img src="./images/frame-1.png" alt="Frame 1" width="600"/></p>
+<p align="center"><img src="./images/frame-2.png" alt="Frame 2" width="600"/></p>
+<p align="center"><img src="./images/frame-3.png" alt="Frame 3" width="600"/></p>
+<p align="center"><img src="./images/frame-4.png" alt="Frame 4" width="600"/></p>
+<p align="center"><img src="./images/frame-5.png" alt="Frame 5" width="600"/></p>
+<p align="center"><img src="./images/frame-6.png" alt="Frame 6" width="600"/></p>
 
 👉 View the full PDF: [**Example.pdf**](./Example.pdf)
 
@@ -83,5 +82,3 @@ This template uses several LaTeX packages:
 ## 📝 License
 
 This template is released under the **MIT License**.
-
-```
