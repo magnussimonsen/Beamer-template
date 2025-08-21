@@ -1,7 +1,3 @@
-Your images aren’t rendering because the README has a **broken code fence**: you open a code block with three backticks (\`\`\`latex) but close it with **four** (\`\`\`\`). Everything after that is treated as code, so the `<img>` tags never render.
-
-Here’s a fixed README snippet (also corrected the `cd` path and added all six images + the proper PDF filename `Example.pdf`):
-
 ````markdown
 # Beamer Teaching Template (Copenhagen-based)
 
@@ -88,11 +84,4 @@ This template uses several LaTeX packages:
 
 This template is released under the **MIT License**.
 
-```
-
-Quick checklist:
-- ✅ Close every code block with **exactly three** backticks.  
-- ✅ Filenames are **case-sensitive** on GitHub: `Example.pdf` ≠ `example.pdf`.  
-- ✅ Images are in the **same folder** as the README (or update `src` paths accordingly).  
-- ✅ Commit & push the changes, then hard-refresh the README page.
 ```
