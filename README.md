@@ -41,6 +41,22 @@ It extends the standard *Copenhagen* theme with:
 
 ---
 
+## 📷 Preview
+
+Here are six example frames generated with this template:
+
+![Frame 1](frame-1.png)
+![Frame 2](frame-2.png)
+![Frame 3](frame-3.png)
+![Frame 4](frame-4.png)
+![Frame 5](frame-5.png)
+![Frame 6](frame-6.png)
+
+👉 You can also view the **full slide deck** as a PDF:
+[📄 example.pdf](example.pdf)
+
+---
+
 ## 📦 Requirements
 
 This template uses several LaTeX packages:
@@ -58,7 +74,7 @@ This template uses several LaTeX packages:
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/USERNAME/beamer-r2-template.git
+   git clone https://github.com/USERNAME/beamer-template.git
    cd beamer-r2-template
    ```
 
@@ -72,4 +88,3 @@ This template uses several LaTeX packages:
 ## 📝 License
 
 This template is released under the **MIT License**.
-Feel free to adapt and use it for your own teaching materials.
