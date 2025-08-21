@@ -43,17 +43,17 @@ It extends the standard *Copenhagen* theme with:
 
 ## 📷 Preview
 
-Here are six example frames generated with this template:
+<p align="center">
+  <img src="./frame-1.png" alt="Frame 1" width="700"/>
+</p>
 
-![Frame 1](frame-1.png)
-![Frame 2](frame-2.png)
-![Frame 3](frame-3.png)
-![Frame 4](frame-4.png)
-![Frame 5](frame-5.png)
-![Frame 6](frame-6.png)
+<p align="center">
+  <img src="./frame-2.png" alt="Frame 2" width="700"/>
+</p>
 
-👉 You can also view the **full slide deck** as a PDF:
-[📄 example.pdf](example.pdf)
+<p align="center">
+  <img src="./frame-3.png" alt="Frame 3" width="700"/>
+</p>
 
 ---
 
