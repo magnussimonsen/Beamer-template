@@ -2,7 +2,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-%\usetheme{Boadilla}
 \usetheme{Copenhagen}
 \usepackage{amssymb}
 \usepackage{amsmath, amsfonts, amsthm, graphicx, geometry, lipsum, xcolor} 
@@ -17,8 +16,7 @@
 \setbeamertemplate{footline}[frame number]
 \setbeamertemplate{navigation symbols}{}
 
-
-% Define colors to exactly match your tcolorboxes
+% Define colors to exactly match tcolorboxes
 \definecolor{myblue}{rgb}{0.0,0.0,0.0}   % initialize
 \colorlet{myblue}{black!35!blue}
 
@@ -31,12 +29,10 @@
 \definecolor{mycyan}{rgb}{0.0,0.0,0.0}
 \colorlet{mycyan}{cyan}
 
-% In your preamble after defining colors:
 \newcommand{\blueheader}{\setbeamercolor{palette primary}{bg=myblue, fg=white}}
 \newcommand{\redheader}{\setbeamercolor{palette primary}{bg=myred, fg=white}}
 \newcommand{\greenheader}{\setbeamercolor{palette primary}{bg=mygreen, fg=white}}
 \newcommand{\cyanheader}{\setbeamercolor{palette primary}{bg=mycyan, fg=white}}
-
 
 \newtcbtheorem{blue}{}{%
         theorem name,%
