@@ -1,3 +1,8 @@
+Your images aren’t rendering because the README has a **broken code fence**: you open a code block with three backticks (\`\`\`latex) but close it with **four** (\`\`\`\`). Everything after that is treated as code, so the `<img>` tags never render.
+
+Here’s a fixed README snippet (also corrected the `cd` path and added all six images + the proper PDF filename `Example.pdf`):
+
+````markdown
 # Beamer Teaching Template (Copenhagen-based)
 
 This repository contains a **LaTeX Beamer template** designed for teaching mathematics and physics.  
@@ -30,7 +35,6 @@ It extends the standard *Copenhagen* theme with:
   En aritmetisk følge er gitt ved $a_{n+1} = a_n + d$.
   \end{blue*}
   ```
-
 * **Matching color palette**
   Colors match between the headline and the theorem boxes:
 
@@ -43,17 +47,14 @@ It extends the standard *Copenhagen* theme with:
 
 ## 📷 Preview
 
-<p align="center">
-  <img src="./frame-1.png" alt="Frame 1" width="700"/>
-</p>
+<p align="center"><img src="./images/frame-1.png" alt="Frame 1" width="700"/></p>
+<p align="center"><img src="./images/frame-2.png" alt="Frame 2" width="700"/></p>
+<p align="center"><img src="./images/frame-3.png" alt="Frame 3" width="700"/></p>
+<p align="center"><img src="./images/frame-4.png" alt="Frame 4" width="700"/></p>
+<p align="center"><img src="./images/frame-5.png" alt="Frame 5" width="700"/></p>
+<p align="center"><img src="./images/frame-6.png" alt="Frame 6" width="700"/></p>
 
-<p align="center">
-  <img src="./frame-2.png" alt="Frame 2" width="700"/>
-</p>
-
-<p align="center">
-  <img src="./frame-3.png" alt="Frame 3" width="700"/>
-</p>
+👉 View the full PDF: [**Example.pdf**](./Example.pdf)
 
 ---
 
@@ -75,11 +76,9 @@ This template uses several LaTeX packages:
 
    ```bash
    git clone https://github.com/USERNAME/beamer-template.git
-   cd beamer-r2-template
+   cd beamer-template
    ```
-
 2. Open `main.tex` in Overleaf or your local LaTeX editor.
-
 3. Compile with `pdflatex` (or `lualatex`/`xelatex`).
    If using `minted`, remember to enable `--shell-escape`.
 
@@ -88,3 +87,12 @@ This template uses several LaTeX packages:
 ## 📝 License
 
 This template is released under the **MIT License**.
+
+```
+
+Quick checklist:
+- ✅ Close every code block with **exactly three** backticks.  
+- ✅ Filenames are **case-sensitive** on GitHub: `Example.pdf` ≠ `example.pdf`.  
+- ✅ Images are in the **same folder** as the README (or update `src` paths accordingly).  
+- ✅ Commit & push the changes, then hard-refresh the README page.
+```
