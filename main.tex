@@ -74,6 +74,19 @@
 }
 
 % -------------------------------
+% Info macros
+% -------------------------------
+% Fixed info note
+\newcommand{\info}{%
+  \textcolor{blue}{\faInfoCircle\ \textbf{For your information}}%
+}
+
+% Flexible info note: \infoCustomMsg{Message} or \infoCustomMsg[teal]{Message}
+\newcommand{\infoCustomMsg}[2][myblue]{%
+  \textcolor{#1}{\faInfoCircle\ \textbf{#2}}%
+}
+
+% -------------------------------
 % Custom colors (aligned with tcolorboxes)
 % -------------------------------
 \definecolor{myblue}{rgb}{0.0,0.0,0.0}
@@ -149,16 +162,8 @@
 % Each chapter is kept in its own .tex file for easier version control.
 % Comment out modules you don’t want to compile.
 % -------------------------------
-%\include{Ch-1A}
-%\include{Ch-1B}
-%\include{Ch-1C}
-%\include{Ch-1D}
-%\include{Ch-1E}
-
-% Future chapters:
-% \include{Ch-2A}
-% \include{Ch-2B}
-% \include{Ch-2C}
-% \include{Ch-2D}
+\include{Abstract-linear-algebra.tex}
+%\include{Italian-Pronunciationa.tex}
+%\include{French-Pronunciation.tex}
 
 \end{document}
