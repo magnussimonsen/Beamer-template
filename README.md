@@ -4,9 +4,9 @@
 
 [Abstract Linear Algebra PDF](Abstract-Linear-Algebra.pdf)
 
-[Italian Pronunciation PDF](slides/Italian-Pronunciation.pdf)
+[Italian Pronunciation PDF](slides/Italian_Pronunciation.pdf)
 
-[French Pronunciation PDF](slides/French-Pronunciation.pdf)
+[French Pronunciation PDF](slides/French_Pronunciation.pdf)
 
 This repository contains a Beamer template for teaching mathematics, physics, and languages. It extends the **Copenhagen** theme with:
 
