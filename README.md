@@ -42,13 +42,6 @@ It extends the standard *Copenhagen* theme with:
 
 ## 📷 Preview
 
-<p align="center"><img src="./images/frame-1.png" alt="Frame 1" width="600"/></p>
-<p align="center"><img src="./images/frame-2.png" alt="Frame 2" width="600"/></p>
-<p align="center"><img src="./images/frame-3.png" alt="Frame 3" width="600"/></p>
-<p align="center"><img src="./images/frame-4.png" alt="Frame 4" width="600"/></p>
-<p align="center"><img src="./images/frame-5.png" alt="Frame 5" width="600"/></p>
-<p align="center"><img src="./images/frame-6.png" alt="Frame 6" width="600"/></p>
-
 👉 View the full PDF: [**Abstract-linear-algebra.pdf**](./Abstract-linear-algebra.pdf)
 
 👉 View the full PDF: [**Italian-Pronunciation.pdf**](./Italian-Pronunciation.pdf)
