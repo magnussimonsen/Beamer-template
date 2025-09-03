@@ -1,0 +1,137 @@
+% --- Slide 1: Vector Space Definition ---
+\blueheader
+\begin{frame}{Abstract Linear Algebra: Vector Space}
+A \textbf{vector space} over a field $\mathbb{F}$ is a set $V$ equipped with
+\begin{itemize}
+    \item vector addition $+: V \times V \to V$,
+    \item scalar multiplication $\cdot: \mathbb{F} \times V \to V$,
+\end{itemize}
+satisfying for all $u,v,w \in V$, $\alpha,\beta \in \mathbb{F}$:
+\begin{enumerate}
+    \item $u+v = v+u$ \hfill (commutativity)
+    \item $(u+v)+w = u+(v+w)$ \hfill (associativity)
+    \item There exists $0 \in V$ such that $v+0=v$ \hfill (additive identity)
+    \item For each $v$, there exists $-v$ with $v+(-v)=0$ \hfill (additive inverse)
+    \item $\alpha(u+v) = \alpha u + \alpha v$ \hfill (distributivity I)
+    \item $(\alpha+\beta) v = \alpha v + \beta v$ \hfill (distributivity II)
+    \item $(\alpha\beta)v = \alpha(\beta v)$ \hfill (associativity of scalar mult.)
+    \item $1 \cdot v = v$ \hfill (unit property)
+\end{enumerate}
+
+\end{frame}
+
+% --- Slide 2: Remark ---
+\redheader
+\begin{frame}{Abstract Linear Algebra: Remark}
+\begin{red*}{Remark}
+A vector space by itself only has the structure provided by addition and scalar multiplication.
+
+\medskip
+\begin{itemize}
+    \item It does \emph{not} include a notion of \textbf{length}, \textbf{angle}, or \textbf{orthogonality}.
+    \item These geometric notions are \textbf{induced} once we add an \textbf{inner product} and, from it, a norm.
+\end{itemize}
+\end{red*}
+\end{frame}
+
+% --- Slide 3: Inner Product ---
+\blueheader
+\begin{frame}{Abstract Linear Algebra: Inner Product}
+\begin{blue*}{Definition}
+An \textbf{inner product} on a real vector space $V$ is a function
+\[
+\langle \cdot, \cdot \rangle : V \times V \to \mathbb{R}
+\]
+such that for all $u,v,w \in V$, $\alpha \in \mathbb{R}$:
+\begin{enumerate}
+    \item $\langle u,v \rangle = \langle v,u \rangle$ \hfill (symmetry)
+    \item $\langle u+v,w \rangle = \langle u,w \rangle + \langle v,w \rangle$ \hfill (linearity in the first slot)
+    \item $\langle \alpha u, v \rangle = \alpha \langle u,v \rangle$ \hfill (homogeneity)
+    \item $\langle v,v \rangle \ge 0$, and $\langle v,v \rangle = 0 \iff v=0$ \hfill (positivity/definiteness)
+\end{enumerate}
+\end{blue*}
+\end{frame}
+
+% --- Slide 4: Norm from Inner Product ---
+\redheader
+\begin{frame}{Abstract Linear Algebra: Norm}
+\begin{red*}{Definition}
+Given an inner product $\langle \cdot, \cdot \rangle$ on $V$, the induced \textbf{norm} is
+\[
+\norm{v} = \sqrt{\langle v, v \rangle}, \quad v \in V.
+\]
+
+This norm yields geometric notions:
+\begin{itemize}
+    \item \textbf{Length}: $\norm{v}$
+    \item \textbf{Angle}: $\displaystyle \cos \theta = \frac{\langle u, v \rangle}{\norm{u}\,\norm{v}}$ (for $u,v\neq 0$)
+    \item \textbf{Orthogonality}: $u \perp v \iff \langle u, v \rangle = 0$
+\end{itemize}
+\end{red*}
+\end{frame}
+
+% --- Slide 5: Example ---
+\greenheader
+\begin{frame}{Abstract Linear Algebra: Example}
+\begin{green*}{Example}
+Let $V = \mathbb{R}^2$ with the standard inner product
+\[
+\langle u, v \rangle = u_1 v_1 + u_2 v_2.
+\]
+For $u = (3,4)$ and $v = (4,-3)$:
+\[
+\langle u, v \rangle = 3 \cdot 4 + 4 \cdot (-3) = 12 - 12 = 0.
+\]
+Thus $u \perp v$. Also $\norm{u} = \sqrt{3^2+4^2}=5$.
+\end{green*}
+\end{frame}
+
+% --- Slide 6: Exercise ---
+\cyanheader
+\begin{frame}{Abstract Linear Algebra: Exercise}
+\begin{cyan*}{Exercise}
+Let $u=(1,2,2)$ and $v=$(2,0,1) in $\mathbb{R}^3$ with the standard inner product.
+\begin{enumerate}
+    \item Compute $\langle u,v \rangle$.
+    \item Find $\norm{u}$ and $\norm{v}$.
+    \item Determine the cosine of the angle between $u$ and $v$.
+\end{enumerate}
+\end{cyan*}
+\end{frame}
+
+% --- Slide 7: Exploration Task ---
+\magentaheader
+\begin{frame}{Abstract Linear Algebra: Exploration}
+\begin{magenta*}{Task for Exploration}
+Work with the standard inner product on $\mathbb{R}^2$ or $\mathbb{R}^3$.
+\begin{enumerate}
+    \item Pick two vectors $u$ and $v$. Compute
+    \[
+    \abs{\langle u,v\rangle}, \quad \norm{u}, \quad \norm{v}, \quad \norm{u+v}.
+    \]
+    \item Compare $\abs{\langle u,v\rangle}$ with $\norm{u}\,\norm{v}$. Try several pairs.
+    \item Compare $\norm{u+v}$ with $\norm{u}+\norm{v}$. Does it always hold?
+    \item Explore special cases: $u$ and $v$ linearly dependent; $u \perp v$.
+\end{enumerate}
+\end{magenta*}
+
+\medskip
+\infoCustomMsg{\small You are rediscovering the Cauchy--Schwarz inequality and the triangle inequality. Equality holds when $u$ and $v$ are linearly dependent (Cauchy--Schwarz), and when $u$ and $v$ point in the same direction (triangle).}
+\end{frame}
+
+
+% --- Slide 8: Motivation / Applications (Not Curriculum) ---
+\blueheader
+\begin{frame}{Abstract Linear Algebra: Beyond the Curriculum}
+
+\warn
+
+\medskip
+Linear algebra has powerful real-world applications:
+\begin{itemize}
+    \item \textbf{Cryptography}: RSA and lattice methods use vector spaces and linear maps.
+    \item \textbf{Engineering}: Signal processing and compression use inner products and orthogonal bases.
+    \item \textbf{Machine Learning}: Vector spaces model data; norms and inner products measure similarity.
+\end{itemize}
+
+\end{frame}
