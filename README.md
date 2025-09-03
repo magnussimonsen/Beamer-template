@@ -1,79 +1,175 @@
-# Beamer $\LaTeX$ Teaching Template (Copenhagen-based)
+# Beamer LaTeX Teaching Template (Copenhagen theme)
 
-This repository contains a $\LaTeX$  Beamer template designed for teaching mathematics and physics.  
-It extends the standard *Copenhagen* theme with:
+This repository contains a Beamer template for teaching mathematics, physics, and languages. It extends the **Copenhagen** theme with:
 
-- ✅ **Custom color palette** (`myblue`, `myred`, `mygreen`, `mycyan`)  
-- ✅ **Header macros** (`\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`)  
-- ✅ **tcolorbox environments** for definitions, theorems, tasks, and examples  
-- ✅ **Clean layout** with frame numbers and no navigation symbols  
-
----
-
-## 🎨 Features
-
-- **Custom headers**  
-  Easily set a consistent color band for each frame:
-  ```latex
-  \blueheader
-  \begin{frame}
-  \frametitle{Example}
-  Content here...
-  \end{frame}
-  ```
-
-* **Theorem-like boxes**
-  Defined with `tcolorbox`, e.g.:
-
-  ```latex
-  \begin{blue*}{Definisjon}
-  En aritmetisk følge er gitt ved $a_{n+1} = a_n + d$.
-  \end{blue*}
-  ```
-* **Matching color palette**
-  Colors match between the headline and the theorem boxes:
-
-  * `blue` → definitions
-  * `red` → theorems / rules
-  * `green` → examples
-  * `cyan` → exercises / tasks
+- **Custom color palette**: `myblue`, `myred`, `mygreen`, `mycyan`, `mymagenta`  
+- **Header macros**: `\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`, `\magentaheader`  
+- **tcolorbox environments**: colored frames for definitions, rules, examples, tasks  
+- **Clean layout**: frame numbers visible, navigation symbols hidden  
+- **Utility macros**: `\warn`, `\warnCustomMsg`, `\info`, `\infoCustomMsg`  
+- **IPA support**: via `tipa` (pdfLaTeX) or Unicode IPA (XeLaTeX/LuaLaTeX)
 
 ---
 
-## 📷 Preview
+## Features
 
-👉 View the full PDF: [**Abstract-linear-algebra.pdf**](./Abstract-linear-algebra.pdf)
+### 1) Colored headers per frame
+```latex
+\blueheader
+\begin{frame}{Topic title}
+Bullet 1
+\end{frame}
+```
 
-👉 View the full PDF: [**Italian-Pronunciation.pdf**](./Italian-Pronunciation.pdf)
+### 2) Theorem-like boxes with matching colors
+```latex
+\begin{red*}{Rule}
+State a key rule or takeaway here.
+\end{red*}
+```
+
+### 3) Info and warning callouts
+```latex
+\infoCustomMsg{This helps but is not examinable detail.}
+\warnCustomMsg[orange]{Not part of curriculum}
+```
+
+### 4) IPA in slides
+With **pdfLaTeX** + `tipa`:
+```latex
+\textipa{[bO~]}   % e.g., French "bon"
+\textipa{[tSe]}   % Italian "ce" as [t͡ʃe]
+```
+With **XeLaTeX/LuaLaTeX** + `fontspec`:
+```latex
+% In preamble:
+\usepackage{fontspec}
+\setmainfont{Doulos SIL} % or Charis SIL, Noto Serif
+
+% In frames:
+[ bɔ̃ ]   % type Unicode IPA directly
+```
 
 ---
 
-## 📦 Requirements
+## Preview
 
-This template uses several LaTeX packages:
-
-* `beamer` (Copenhagen theme)
-* `tcolorbox`
-* `minted` (for code, requires `-shell-escape`)
-* `tikz`, `pgfplots`
-* Standard math packages (`amsmath`, `amssymb`, `amsthm`)
+If you commit the built PDFs, add links like:
+- **Abstract-linear-algebra.pdf**
+- **Italian-Pronunciation.pdf**
+- **French-Pronunciation.pdf**
 
 ---
 
-## 🚀 Usage
+## Requirements
 
-1. Clone the repo:
+Core packages:
+- `beamer` (Copenhagen theme), `tcolorbox`, `tikz`, `pgfplots`
+- Math: `amsmath`, `amssymb`, `amsthm`
+- Utilities: `hyperref`, `xcolor`, `siunitx`, `graphicx`, `minted` (optional), `tipa` (for IPA with pdfLaTeX)
+- Icons: `fontawesome5` (for `\warn` and `\info` icons)
 
-   ```bash
-   git clone https://github.com/USERNAME/beamer-template.git
-   cd beamer-template
-   ```
-2. Open `main.tex` in Overleaf or your local LaTeX editor.
-3. Compile with `pdflatex` (or `lualatex`/`xelatex`).
-   If using `minted`, remember to enable `--shell-escape`.
+Optional:
+- `minted` for code highlighting (requires `--shell-escape`)
 
 ---
 
-## 📝 License
+## Build instructions
 
-This template is released under the **MIT License**.
+Choose one of these setups.
+
+### Option A: pdfLaTeX + `tipa` (safe for IPA with `\textipa{}`)
+
+Use when you want to stay on pdfLaTeX.
+
+```bash
+pdflatex -shell-escape main.tex   # needed if you use minted
+pdflatex -shell-escape main.tex
+```
+
+Notes:
+- `tipa` is already loaded in the template. Wrap IPA in `\textipa{...}`.
+- If you do not use `minted`, you can omit `-shell-escape`.  
+
+### Option B: XeLaTeX or LuaLaTeX + Unicode IPA
+
+Use when you prefer to type real IPA characters.
+
+Add to preamble:
+```latex
+\usepackage{fontspec}
+\setmainfont{Doulos SIL} % or Charis SIL, Noto Serif
+```
+
+Build:
+```bash
+xelatex -shell-escape main.tex     # or lualatex
+xelatex -shell-escape main.tex
+```
+
+Notes:
+- Keep `-shell-escape` only if `minted` is enabled.
+- Comment out `\usepackage[utf8]{inputenc}` when using XeLaTeX/LuaLaTeX.
+
+---
+
+## Quick start
+
+```bash
+git clone https://github.com/USERNAME/beamer-template.git
+cd beamer-template
+```
+
+Open `main.tex`, toggle which modules to include:
+```latex
+% \include{Abstract-linear-algebra}
+% \include{Italian-Pronunciation}
+\include{French-Pronunciation}
+```
+
+Build using one of the options above.
+
+---
+
+## Repository structure (suggested)
+
+```
+.
+├── main.tex                 # theme, colors, macros, includes
+├── Abstract-linear-algebra.tex
+├── Italian-Pronunciation.tex
+├── French-Pronunciation.tex
+├── figures/                 # images if needed
+└── README.md
+```
+
+---
+
+## Troubleshooting
+
+- **Unicode or IPA errors with pdfLaTeX**  
+  Use `\textipa{...}` and keep `\usepackage{tipa}`. Remove raw IPA symbols like `ɔ ɛ ʁ`.
+
+- **minted errors or build fails**  
+  Add `-shell-escape` to the LaTeX command. If that is not possible, replace `minted` with `verbatim` or `listings`.
+
+- **Font issues with Unicode IPA**  
+  Use XeLaTeX or LuaLaTeX and load a font with IPA coverage, for example Doulos SIL or Charis SIL.
+
+- **Overfull boxes**  
+  Shorten line text, add `\small` on dense frames, or split content across two frames.
+
+---
+
+## License
+
+Released under the **MIT License**.  
+Copyright © 2025 Magnus Simonsen.
+
+---
+
+### Credits and notes
+
+- Theme: Beamer Copenhagen with small layout tweaks.
+- Icons: `fontawesome5` for info and warning callouts.
+- IPA: `tipa` for pdfLaTeX or Unicode IPA via XeLaTeX/LuaLaTeX.
