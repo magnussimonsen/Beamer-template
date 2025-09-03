@@ -2,7 +2,7 @@
 
 ## Preview
 
-[Abstract Linear Algebra PDF](Abstract-linear-algebra.pdf)
+[Abstract Linear Algebra PDF](Abstract-Linear-Algebra.pdf)
 
 [Italian Pronunciation PDF](slides/Italian-Pronunciation.pdf)
 
