@@ -1,4 +1,4 @@
-# Beamer LaTeX Teaching Template (Copenhagen theme)
+# Beamer $\LaTeX$ Teaching Template (Copenhagen theme)
 
 This repository contains a Beamer template for teaching mathematics, physics, and languages. It extends the **Copenhagen** theme with:
 
