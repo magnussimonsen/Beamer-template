@@ -54,10 +54,9 @@ With **XeLaTeX/LuaLaTeX** + `fontspec`:
 
 ## Preview
 
-If you commit the built PDFs, add links like:
-- **Abstract-linear-algebra.pdf**
-- **Italian-Pronunciation.pdf**
-- **French-Pronunciation.pdf**
+[Abstract Linear Algebra PDF](Abstract-linear-algebra.pdf)
+[Italian slides](slides/Italian-Pronunciation.pdf)
+[French slides](slides/French-Pronunciation.pdf)
 
 ---
 
