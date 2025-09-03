@@ -1,5 +1,13 @@
 # Beamer $\LaTeX$ Teaching Template (Copenhagen theme)
 
+## Preview
+
+[Abstract Linear Algebra PDF](Abstract-linear-algebra.pdf)
+
+[Italian slides](slides/Italian-Pronunciation.pdf)
+
+[French slides](slides/French-Pronunciation.pdf)
+
 This repository contains a Beamer template for teaching mathematics, physics, and languages. It extends the **Copenhagen** theme with:
 
 - **Custom color palette**: `myblue`, `myred`, `mygreen`, `mycyan`, `mymagenta`  
@@ -49,16 +57,6 @@ With **XeLaTeX/LuaLaTeX** + `fontspec`:
 % In frames:
 [ bɔ̃ ]   % type Unicode IPA directly
 ```
-
----
-
-## Preview
-
-[Abstract Linear Algebra PDF](Abstract-linear-algebra.pdf)
-[Italian slides](slides/Italian-Pronunciation.pdf)
-[French slides](slides/French-Pronunciation.pdf)
-
----
 
 ## Requirements
 
