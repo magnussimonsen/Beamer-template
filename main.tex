@@ -1,61 +1,62 @@
+
 % ======================================================================
 % Beamer template for lectures (16:9 handout version)
-% ----------------------------------------------------------------------
-% License: MIT © 2025 Magnus Simonsen.
+% MIT © 2025 Magnus Simonsen
 %
-% Structure:
-%   - This file sets theme, colors, boxes, and custom commands.
-%   - Content is split into separate .tex files and included below.
+% This template provides:
+%   - Clean 16:9 Beamer slides optimized for handouts.
+%   - Color macros and tcolorboxes for structure and emphasis.
+%   - Optional 2-up or 4-up handout printing layouts.
 % ======================================================================
 
 \documentclass[11pt, aspectratio=169, handout]{beamer}
 
 % -------------------------------
-% Encoding and language
+% Encoding, language, typography
 % -------------------------------
-\usepackage[utf8]{inputenc}   % UTF-8 support in pdflatex (not needed in lua/xe, but harmless)
-\usepackage[T1]{fontenc}      % Proper hyphenation/accents for European languages
-\usepackage[norsk]{babel}     % Norwegian localization (headings, hyphenation)
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
 
 % -------------------------------
-% Beamer theme and layout
+% Beamer theme and navigation
 % -------------------------------
-% \usetheme{Boadilla}         % Alternative theme (disabled)
-\usetheme{Copenhagen}         % Selected theme
-\setbeamercovered{transparent}% Partially hidden elements appear transparent
-\setbeamertemplate{headline}{}% Remove default header line
-\setbeamertemplate{footline}[frame number] % Only show frame number
-\setbeamertemplate{navigation symbols}{}   % Hide navigation icons
+\usetheme{Copenhagen}
+\setbeamercovered{transparent}
+\setbeamertemplate{headline}{}                % Remove header line
+\setbeamertemplate{footline}[frame number]    % Frame number only
+\setbeamertemplate{navigation symbols}{}      % Hide navigation icons
 
 % -------------------------------
 % Commonly used packages
 % -------------------------------
-\usepackage{amssymb}
-\usepackage{amsmath, amsfonts, amsthm}  % Math environments
-\usepackage{graphicx}                   % Images
-\usepackage{geometry}                   % Page geometry (not heavily used in beamer)
-\usepackage{lipsum}                     % Dummy text (remove for production)
-\usepackage{xcolor}                     % Colors
-\usepackage{fancyvrb, fancyhdr}         % Advanced verbatim and headers/footers
-\usepackage{siunitx}                    % SI units and number formatting
-\usepackage{setspace}                   % Line spacing
-\usepackage{hyperref}                   % Clickable links
-\usepackage{caption}                    % Captions (can use captionof in boxes)
-\usepackage{pgfplots, physunits}        % Plots and units
-\pgfplotsset{compat=1.18, width=10cm}   % PGFPlots version and default width
-\usepackage{tikz}                       % Drawing
-\usepackage[most]{tcolorbox}            % Colorful boxes
-\usepackage{fontawesome5}               % Icons (e.g. warning triangle)
-\usepackage{minted}                     % Code highlighting with Pygments (requires --shell-escape)
-\usepackage{tipa}                       % IPA package for pdfLaTeX
+\usepackage{amsmath, amsfonts, amsthm, amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\sisetup{detect-all, per-mode=symbol, separate-uncertainty=true}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage{fontawesome5}
+\usepackage{minted} % requires --shell-escape for compilation
+\usepackage{tipa}
 
+% Optional: multi-slide handout layout
+\usepackage{pgfpages}
+% \pgfpagesuselayout{2 on 1}[a4paper, border shrink=5mm]
+% \pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm]
 
 % -------------------------------
 % Hyperlink settings
 % -------------------------------
 \hypersetup{
-  pdftitle={R2: Lecture notes},
-  pdfauthor={<Your name>},
+  pdftitle={R2: Lecture Notes},
+  pdfauthor={Magnus Simonsen},
   colorlinks=true,
   linkcolor=blue,
   urlcolor=cyan,
@@ -63,109 +64,102 @@
 }
 
 % -------------------------------
-% Warning macros
+% Custom colors
 % -------------------------------
-% Fixed warning (used often in slides)
-\newcommand{\warn}{%
-  \textcolor{orange}{\faExclamationTriangle\ \textbf{Not part of curriculum}}%
+\colorlet{myblue}{black!35!blue}
+\colorlet{myred}{black!35!red}
+\colorlet{mygreen}{black!35!green}
+\colorlet{mycyan}{cyan}
+\definecolor{mymagenta}{rgb}{0.54,0.0,0.54}
+
+% -------------------------------
+% Frame color shortcuts
+% -------------------------------
+\newcommand{\blueframe}{%
+  \setbeamercolor{frametitle}{bg=myblue, fg=white}%
+}
+\newcommand{\redframe}{%
+  \setbeamercolor{frametitle}{bg=myred, fg=white}%
+}
+\newcommand{\greenframe}{%
+  \setbeamercolor{frametitle}{bg=mygreen, fg=white}%
+}
+\newcommand{\cyanframe}{%
+  \setbeamercolor{frametitle}{bg=mycyan, fg=black}%
+}
+\newcommand{\magentaframe}{%
+  \setbeamercolor{frametitle}{bg=mymagenta, fg=white}%
 }
 
-% Flexible warning: \warnCustomMsg{Message} or \warnCustomMsg[red]{Message}
+% -------------------------------
+% Warning and info macros
+% -------------------------------
+\newcommand{\warn}{%
+  \textcolor{orange}{\faExclamationTriangle\ \textbf{Not part of the syllabus}}%
+}
 \newcommand{\warnCustomMsg}[2][orange]{%
   \textcolor{#1}{\faExclamationTriangle\ \textbf{#2}}%
 }
-
-% -------------------------------
-% Info macros
-% -------------------------------
-% Fixed info note
 \newcommand{\info}{%
   \textcolor{blue}{\faInfoCircle\ \textbf{For your information}}%
 }
-
-% Flexible info note: \infoCustomMsg{Message} or \infoCustomMsg[teal]{Message}
 \newcommand{\infoCustomMsg}[2][myblue]{%
   \textcolor{#1}{\faInfoCircle\ \textbf{#2}}%
 }
 
 % -------------------------------
-% Custom colors (aligned with tcolorboxes)
+% tcolorbox environments (color-based names)
+% Usage: \begin{bluebox}{Title}...\end{bluebox}
 % -------------------------------
-\definecolor{myblue}{rgb}{0.0,0.0,0.0}
-\colorlet{myblue}{black!35!blue}         % Blue for neutral/definitions
+\tcbset{
+  colback=white,
+  fonttitle=\bfseries,
+  breakable,
+  enhanced,
+  top=4pt,bottom=4pt,left=6pt,right=6pt,
+  boxsep=0pt
+}
 
-\definecolor{myred}{rgb}{0.0,0.0,0.0}
-\colorlet{myred}{black!35!red}           % Red for theorems/important
+\newtcbtheorem[number within=section]{bluebox}{Definition}%
+{colframe=myblue}{blue}
 
-\definecolor{mygreen}{rgb}{0.0,0.0,0.0}
-\colorlet{mygreen}{black!35!green}       % Green for examples
+\newtcbtheorem[use counter from=bluebox]{redbox}{Theorem}%
+{colframe=myred}{red}
 
-\definecolor{mycyan}{rgb}{0.0,0.0,0.0}
-\colorlet{mycyan}{cyan}                  % Cyan for exercises/tasks
+\newtcbtheorem[use counter from=bluebox]{greenbox}{Example}%
+{colframe=mygreen}{green}
 
-\definecolor{mymagenta}{rgb}{0.54,0.0,0.54} % Custom dark magenta for student engagement and exploration
+\newtcbtheorem[use counter from=bluebox]{cyanbox}{Exercise}%
+{colframe=mycyan}{cyan}
 
-% -------------------------------
-% Header color shortcuts
-% Call e.g. \blueheader to switch palette for a slide
-% -------------------------------
-\newcommand{\blueheader}{\setbeamercolor{palette primary}{bg=myblue, fg=white}}
-\newcommand{\redheader}{\setbeamercolor{palette primary}{bg=myred, fg=white}}
-\newcommand{\greenheader}{\setbeamercolor{palette primary}{bg=mygreen, fg=white}}
-\newcommand{\cyanheader}{\setbeamercolor{palette primary}{bg=mycyan, fg=white}}
-\newcommand{\magentaheader}{\setbeamercolor{palette primary}{bg=mymagenta, fg=white}}
+\newtcbtheorem[use counter from=bluebox]{magentabox}{Explore}%
+{colframe=mymagenta}{magenta}
 
-% -------------------------------
-% Theorem-like tcolorboxes
-% Usage: \begin{blue}...\end{blue}, etc.
-% -------------------------------
-\newtcbtheorem{blue}{}{%
-        theorem name,%
-        colback=white,%
-        colframe=black!35!blue,%
-        fonttitle=\bfseries, title after break={Lemma -- \raggedleft Continued}%
-    }{blue}
-
-\newtcbtheorem{red}{}{%
-        theorem name,%
-        colback=white,%
-        colframe=black!35!red,%
-        fonttitle=\bfseries, title after break={Lemma -- \raggedleft Continued}%
-    }{red}
-
-\newtcbtheorem{cyan}{}{%
-        theorem name,%
-        colback=white,%
-        colframe=cyan,%
-        fonttitle=\bfseries, title after break={Lemma -- \raggedleft Continued}%
-    }{cyan}
-
-\newtcbtheorem{green}{}{%
-        theorem name,%
-        colback=white,%
-        colframe=black!35!green,%
-        fonttitle=\bfseries, title after break={Lemma -- \raggedleft Continued}%
-    }{green}
-
-\newtcbtheorem{magenta}{}{%
-        theorem name,%
-        colback=white,%
-        colframe=mymagenta,%
-        fonttitle=\bfseries, title after break={Lemma -- \raggedleft Continued}%
-    }{magenta}
+% Optionally number theorems on slides:
+% \setbeamertemplate{theorems}[numbered]
 
 % ======================================================================
-% Document start
+% Document
 % ======================================================================
 \begin{document}
 
-% -------------------------------
+% Example slide
+% \blueframe
+% \begin{frame}
+%  \frametitle{Linear Transformations}
+%  \begin{bluebox}{Linear Transformation}
+%    A mapping $T: V \to W$ is called
+%    \emph{linear} if it satisfies
+%    \[
+%      T(u+v) = T(u) + T(v), \qquad T(\alpha v) = \alpha T(v).
+%       \]
+%  \end{bluebox}
+% \end{frame}
+
 % Content modules
-% Each chapter is kept in its own .tex file for easier version control.
-% Comment out modules you don’t want to compile.
-% -------------------------------
-\include{Abstract-linear-algebra.tex}
-%\include{Italian-Pronunciationa.tex}
-%\include{French-Pronunciation.tex}
+% \include{Abstract-linear-algebra.tex}
+% \include{Italian-Pronunciationa.tex}
+% \include{French-Pronunciation.tex}
 
 \end{document}
+
