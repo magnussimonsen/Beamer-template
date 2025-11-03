@@ -4,6 +4,8 @@
 
 [Abstract Linear Algebra PDF](Abstract-Linear-Algebra.pdf)
 
+[French Pronunciation PDF](Special-Relativity-Norwegian-High-School.pdf)
+
 [Italian Pronunciation PDF](Italian-Pronunciation.pdf)
 
 [French Pronunciation PDF](French-Pronunciation.pdf)
