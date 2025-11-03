@@ -4,7 +4,7 @@
 
 [Abstract Linear Algebra PDF](Abstract-Linear-Algebra.pdf)
 
-[French Pronunciation PDF](Special-Relativity-Norwegian-High-School.pdf)
+[Special Relativity Norwegian High School PDF](Special-Relativity-Norwegian-High-School.pdf)
 
 [Italian Pronunciation PDF](Italian-Pronunciation.pdf)
 
