@@ -1,0 +1,258 @@
+% ============================================================
+% LaTeX Crash Course: Reading main.tex
+% ============================================================
+
+% --- Slide 1: What is main.tex? ---
+\blueheader
+\begin{frame}{What is \texttt{main.tex}?}
+\begin{bluebox}{Role of \texttt{main.tex}}{}
+  \texttt{main.tex} is the \textbf{root file} of the project. It does two things:
+  \begin{itemize}
+    \item Sets up the \textbf{preamble}: loads packages, defines colors, macros, and environments.
+    \item Pulls in \textbf{content files} with \texttt{\textbackslash include\{...\}}.
+  \end{itemize}
+\end{bluebox}
+\medskip
+You \textbf{never write slide content directly in} \texttt{main.tex} --- only setup goes here.
+\end{frame}
+
+% --- Slide 2: Document class ---
+\blueheader
+\begin{frame}{The Document Class}
+The very first line sets the document type:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash documentclass[11pt, aspectratio=169, handout]\{beamer\}}
+\end{bluefocus}
+\medskip
+\begin{itemize}
+  \item \texttt{beamer} --- the presentation class
+  \item \texttt{11pt} --- base font size
+  \item \texttt{aspectratio=169} --- widescreen 16:9 slides
+  \item \texttt{handout} --- strips overlays/animations for printing
+\end{itemize}
+\end{frame}
+
+% --- Slide 3: Preamble structure ---
+\blueheader
+\begin{frame}{Preamble: The Setup Zone}
+Everything between \texttt{\textbackslash documentclass} and \texttt{\textbackslash begin\{document\}} is the \textbf{preamble}.
+\medskip
+\begin{bluefocus}
+  The preamble in \texttt{main.tex} is organized into sections:
+  \begin{enumerate}
+    \item Encoding \& typography
+    \item Beamer theme \& navigation
+    \item Commonly used packages
+    \item Hyperlink settings
+    \item Custom colors
+    \item Frame color shortcuts
+    \item Colored box environments
+  \end{enumerate}
+\end{bluefocus}
+\medskip
+Each section is marked with a \texttt{\% ---} comment header.
+\end{frame}
+
+% --- Slide 4: Packages ---
+\blueheader
+\begin{frame}{Loading Packages}
+Packages extend \LaTeX's capabilities. Syntax:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash usepackage[options]\{packagename\}}
+\end{bluefocus}
+\medskip
+Key packages in \texttt{main.tex}:
+\begin{itemize}
+  \item \texttt{amsmath} --- mathematical typesetting
+  \item \texttt{xcolor} --- custom colors
+  \item \texttt{tcolorbox} --- colored content boxes
+  \item \texttt{fontawesome5} --- icons (\faInfoCircle, \faExclamationTriangle)
+  \item \texttt{tikz} / \texttt{pgfplots} --- diagrams and graphs
+\end{itemize}
+\end{frame}
+
+% --- Slide 5: Custom colors ---
+\blueheader
+\begin{frame}{Custom Colors}
+\texttt{main.tex} defines five named colors used throughout:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash colorlet\{myblue\}\{black!35!blue\}}\\
+\texttt{\textbackslash colorlet\{myred\}\{black!35!red\}}\\
+\texttt{\textbackslash colorlet\{mygreen\}\{black!35!green\}}\\
+\texttt{\textbackslash colorlet\{mycyan\}\{cyan\}}\\
+\texttt{\textbackslash definecolor\{mymagenta\}\{rgb\}\{0.54,0.0,0.54\}}
+\end{bluefocus}
+\medskip
+\texttt{black!35!blue} means: 35\% black mixed into blue --- giving a \textcolor{myblue}{\textbf{darker, richer blue}}.
+\end{frame}
+
+% --- Slide 6: Frame color shortcuts ---
+\blueheader
+\begin{frame}{Frame Color Shortcuts}
+To set the frametitle bar color, call one of these \textbf{before} \texttt{\textbackslash begin\{frame\}}:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash blueheader} \quad
+\texttt{\textbackslash redheader} \quad
+\texttt{\textbackslash greenheader} \quad
+\texttt{\textbackslash cyanheader} \quad
+\texttt{\textbackslash magentaheader}
+\end{bluefocus}
+\medskip
+Example usage:
+\begin{bluefocus}
+\texttt{\textbackslash blueheader}\\
+\texttt{\textbackslash begin\{frame\}\{My Slide Title\}}\\
+\quad \texttt{...content...}\\
+\texttt{\textbackslash end\{frame\}}
+\end{bluefocus}
+\end{frame}
+
+% --- Slide 7: Colored content boxes ---
+\blueheader
+\begin{frame}{Colored Content Boxes}
+Five theorem-style box environments are defined:
+\medskip
+\begin{itemize}
+  \item \texttt{bluebox} --- Definition
+  \item \texttt{redbox} --- Theorem
+  \item \texttt{greenbox} --- Example
+  \item \texttt{cyanbox} --- Exercise
+  \item \texttt{magentabox} --- Explore
+\end{itemize}
+\medskip
+Usage requires a \textbf{title} and a \textbf{label}:
+\begin{bluefocus}
+\texttt{\textbackslash begin\{bluebox\}\{My Title\}\{mylabel\}}\\
+\quad \texttt{...content...}\\
+\texttt{\textbackslash end\{bluebox\}}
+\end{bluefocus}
+\end{frame}
+
+% --- Slide 8: Focus boxes ---
+\blueheader
+\begin{frame}{Focus Boxes}
+For \textbf{highlighted text with no title}, use focus boxes:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash begin\{bluefocus\}} \quad \texttt{\textbackslash begin\{redfocus\}}\\
+\texttt{\textbackslash begin\{greenfocus\}} \quad \texttt{\textbackslash begin\{cyanfocus\}}\\
+\texttt{\textbackslash begin\{magentafocus\}}
+\end{bluefocus}
+\medskip
+Example --- this sentence is in a blue focus box:
+\begin{bluefocus}
+  Focus boxes have a light colored background and no border or title.
+\end{bluefocus}
+\end{frame}
+
+% --- Slide 9: Warn and info macros ---
+\blueheader
+\begin{frame}{Warning and Info Macros}
+Two icon macros for callouts:
+\medskip
+\begin{itemize}
+  \item \warn
+  \item \info
+\end{itemize}
+\medskip
+Custom message versions:
+\begin{bluefocus}
+\texttt{\textbackslash warnCustomMsg\{Your message here\}}\\
+\texttt{\textbackslash infoCustomMsg\{Your message here\}}
+\end{bluefocus}
+\medskip
+\infoCustomMsg{Custom messages let you replace the default text with anything you like.}
+\end{frame}
+
+% --- Slide 10: Including content files ---
+\blueheader
+\begin{frame}{Including Content Files}
+Slide content lives in \textbf{separate} \texttt{.tex} files, included at the bottom of \texttt{main.tex}:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash include\{Abstract-Linear-Algebra\}}\\
+\texttt{\textbackslash include\{French-Pronunciation\}}\\
+\texttt{\textbackslash include\{Italian-Pronunciation\}}
+\end{bluefocus}
+\medskip
+\begin{itemize}
+  \item Each file contains only frames --- no preamble, no \texttt{\textbackslash begin\{document\}}.
+  \item Comment out a line to temporarily exclude that module from the build.
+  \item \texttt{\textbackslash include} always starts on a new page; use \texttt{\textbackslash input} if you don't want that.
+\end{itemize}
+\end{frame}
+
+% --- Slide 11: \newcommand syntax ---
+\blueheader
+\begin{frame}{\texttt{\textbackslash newcommand} --- Defining Macros}
+\texttt{\textbackslash newcommand} creates a reusable shortcut:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash newcommand\{\textbackslash name\}[n]\{definition\}}
+\end{bluefocus}
+\medskip
+\begin{itemize}
+  \item \texttt{\textbackslash name} --- the new command you are creating
+  \item \texttt{[n]} --- \emph{optional}: number of arguments (1--9); omit if none
+  \item \texttt{definition} --- what the command expands to; use \texttt{\#1}, \texttt{\#2}\ldots for arguments
+\end{itemize}
+\medskip
+Examples from \texttt{main.tex}:
+\begin{bluefocus}
+\texttt{\textbackslash newcommand\{\textbackslash warn\}\{\textbackslash textcolor\{orange\}\{\textbackslash textbf\{Not part of the syllabus\}\}\}}\\[4pt]
+\texttt{\textbackslash newcommand\{\textbackslash warnCustomMsg\}[2][orange]\{\textbackslash textcolor\{\#1\}\{\textbackslash textbf\{\#2\}\}\}}
+\end{bluefocus}
+\medskip
+The second example uses \texttt{[2][orange]}: 2 arguments, first has default value \texttt{orange}.
+\end{frame}
+
+% --- Slide 12: \tcbset syntax ---
+\blueheader
+\begin{frame}{\texttt{\textbackslash tcbset} --- Global Box Defaults}
+\texttt{\textbackslash tcbset} sets \textbf{default options} for all \texttt{tcolorbox} environments that follow:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash tcbset\{key=value, key=value, ...\}}
+\end{bluefocus}
+\medskip
+From \texttt{main.tex}:
+\begin{bluefocus}
+\texttt{\textbackslash tcbset\{}\\
+\quad \texttt{colback=white,} \hfill \textit{background color}\\
+\quad \texttt{fonttitle=\textbackslash bfseries,} \hfill \textit{bold titles}\\
+\quad \texttt{breakable,} \hfill \textit{allow page breaks}\\
+\quad \texttt{enhanced,} \hfill \textit{enable advanced drawing}\\
+\quad \texttt{top=2pt, bottom=0pt, left=0pt, right=6pt,}\\
+\quad \texttt{boxsep=4pt}\\
+\texttt{\}}
+\end{bluefocus}
+\medskip
+Any \texttt{tcolorbox} or \texttt{\textbackslash newtcbtheorem} box inherits these defaults automatically.
+\end{frame}
+
+% --- Slide 13: \newtcbtheorem syntax ---
+\blueheader
+\begin{frame}{\texttt{\textbackslash newtcbtheorem} --- Numbered Box Environments}
+\texttt{\textbackslash newtcbtheorem} creates a \textbf{numbered, titled box environment}:
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash newtcbtheorem[counter options]\{envname\}\{Title\}\{tcolorbox options\}\{prefix\}}
+\end{bluefocus}
+\medskip
+\begin{itemize}
+  \item \texttt{[counter options]} --- e.g.\ \texttt{number within=section} or \texttt{use counter from=bluebox}
+  \item \texttt{envname} --- the environment name you use in your document
+  \item \texttt{Title} --- the label printed in the box header (e.g.\ \emph{Definition}, \emph{Theorem})
+  \item \texttt{\{tcolorbox options\}} --- extra styling, e.g.\ \texttt{colframe=myblue}
+  \item \texttt{prefix} --- namespace for \texttt{\textbackslash ref} labels, e.g.\ \texttt{bluebox}
+\end{itemize}
+\medskip
+\begin{bluefocus}
+\texttt{\textbackslash newtcbtheorem\{bluebox\}\{Definition\}\{colframe=myblue\}\{bluebox\}}\\[2pt]
+Then use: \texttt{\textbackslash begin\{bluebox\}\{My Title\}\{mylabel\} ... \textbackslash end\{bluebox\}}
+\end{bluefocus}
+\end{frame}

@@ -19,6 +19,14 @@
 \usepackage[english]{babel}
 \usepackage{lmodern}
 \usepackage{microtype}
+\usepackage{comicneue}        % Comic Sans refined
+%\usepackage{iwona}            % Humanist sans, friendly feel
+%\usepackage{kurier}           % Similar to Iwona, slightly rounder
+%\usepackage{aurical}          % Handwritten cursive style
+%\usepackage{opensans}         % Dyslexia-friendly, clean sans-serif
+%\usepackage{cabin}            % Dyslexia-friendly, humanist sans
+%\usepackage[sfdefault]{roboto}    % Dyslexia-friendly, excellent clarity
+%\usepackage[sfdefault]{FiraSans}  % Dyslexia-friendly, designed for screens
 
 % -------------------------------
 % Beamer theme and navigation
@@ -28,6 +36,7 @@
 \setbeamertemplate{headline}{}                % Remove header line
 \setbeamertemplate{footline}[frame number]    % Frame number only
 \setbeamertemplate{navigation symbols}{}      % Hide navigation icons
+\addtobeamertemplate{frametitle}{\vspace{-4pt}}{\vspace{-8pt}} % Reduce header height
 
 % -------------------------------
 % Commonly used packages
@@ -43,7 +52,7 @@
 \usepackage{tikz}
 \usepackage[most]{tcolorbox}
 \usepackage{fontawesome5}
-\usepackage{minted} % requires --shell-escape for compilation
+%\usepackage{minted} % requires --shell-escape for compilation
 \usepackage{tipa}
 
 % Optional: multi-slide handout layout
@@ -55,8 +64,8 @@
 % Hyperlink settings
 % -------------------------------
 \hypersetup{
-  pdftitle={R2: Lecture Notes},
-  pdfauthor={Magnus Simonsen},
+  pdftitle={Title of the Lecture Series},
+  pdfauthor={The Lecturer's Name},
   colorlinks=true,
   linkcolor=blue,
   urlcolor=cyan,
@@ -75,19 +84,19 @@
 % -------------------------------
 % Frame color shortcuts
 % -------------------------------
-\newcommand{\blueframe}{%
+\newcommand{\blueheader}{%
   \setbeamercolor{frametitle}{bg=myblue, fg=white}%
 }
-\newcommand{\redframe}{%
+\newcommand{\redheader}{%
   \setbeamercolor{frametitle}{bg=myred, fg=white}%
 }
-\newcommand{\greenframe}{%
+\newcommand{\greenheader}{%
   \setbeamercolor{frametitle}{bg=mygreen, fg=white}%
 }
-\newcommand{\cyanframe}{%
+\newcommand{\cyanheader}{%
   \setbeamercolor{frametitle}{bg=mycyan, fg=black}%
 }
-\newcommand{\magentaframe}{%
+\newcommand{\magentaheader}{%
   \setbeamercolor{frametitle}{bg=mymagenta, fg=white}%
 }
 
@@ -109,34 +118,44 @@
 
 % -------------------------------
 % tcolorbox environments (color-based names)
-% Usage: \begin{bluebox}{Title}...\end{bluebox}
+% Usage: \begin{blue}{Title}...\end{blue}
 % -------------------------------
 \tcbset{
   colback=white,
   fonttitle=\bfseries,
   breakable,
   enhanced,
-  top=4pt,bottom=4pt,left=6pt,right=6pt,
-  boxsep=0pt
+  top=2pt,bottom=0pt,left=0pt,right=6pt,
+  boxsep=4pt
 }
 
-\newtcbtheorem[number within=section]{bluebox}{Definition}%
-{colframe=myblue}{blue}
+\newtcbtheorem{bluebox}{Definition}%
+{colframe=myblue}{bluebox}
 
 \newtcbtheorem[use counter from=bluebox]{redbox}{Theorem}%
-{colframe=myred}{red}
+{colframe=myred}{redbox}
 
 \newtcbtheorem[use counter from=bluebox]{greenbox}{Example}%
-{colframe=mygreen}{green}
+{colframe=mygreen}{greenbox}
 
 \newtcbtheorem[use counter from=bluebox]{cyanbox}{Exercise}%
-{colframe=mycyan}{cyan}
+{colframe=mycyan}{cyanbox}
 
 \newtcbtheorem[use counter from=bluebox]{magentabox}{Explore}%
-{colframe=mymagenta}{magenta}
+{colframe=mymagenta}{magentabox}
 
 % Optionally number theorems on slides:
 % \setbeamertemplate{theorems}[numbered]
+
+% -------------------------------
+% Focus boxes with blue, red, green, cyan, magenta background and no frame and no title with a simple command.
+% We use a numbers to lighten the basic colors for each color seperate here in the definition of the focus boxes.
+\newtcolorbox{bluefocus}{colback=myblue!15, colframe=white, title={}}
+\newtcolorbox{redfocus}{colback=myred!15, colframe=white, title={}}
+\newtcolorbox{greenfocus}{colback=mygreen!15, colframe=white, title={}}
+\newtcolorbox{cyanfocus}{colback=mycyan!15, colframe=white, title={}}
+\newtcolorbox{magentafocus}{colback=mymagenta!15, colframe=white, title={}}
+
 
 % ======================================================================
 % Document
@@ -144,22 +163,23 @@
 \begin{document}
 
 % Example slide
-% \blueframe
-% \begin{frame}
+% \blueheader
+% \begin{blue}
 %  \frametitle{Linear Transformations}
-%  \begin{bluebox}{Linear Transformation}
+%  \begin{blue}{Linear Transformation}
 %    A mapping $T: V \to W$ is called
 %    \emph{linear} if it satisfies
 %    \[
 %      T(u+v) = T(u) + T(v), \qquad T(\alpha v) = \alpha T(v).
 %       \]
-%  \end{bluebox}
+%  \end{blue}
 % \end{frame}
 
 % Content modules
 % \include{Abstract-linear-algebra.tex}
 % \include{Italian-Pronunciationa.tex}
 % \include{French-Pronunciation.tex}
-
+%\include{focusbox-example.tex}
+\include{latex-crash-course.tex}
 \end{document}
 
