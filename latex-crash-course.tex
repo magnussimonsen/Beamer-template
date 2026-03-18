@@ -189,70 +189,66 @@ Slide content lives in \textbf{separate} \texttt{.tex} files, included at the bo
 % --- Slide 11: \newcommand syntax ---
 \blueheader
 \begin{frame}{\texttt{\textbackslash newcommand} --- Defining Macros}
-\texttt{\textbackslash newcommand} creates a reusable shortcut:
-\medskip
 \begin{bluefocus}
 \texttt{\textbackslash newcommand\{\textbackslash name\}[n]\{definition\}}
 \end{bluefocus}
-\medskip
 \begin{itemize}
-  \item \texttt{\textbackslash name} --- the new command you are creating
-  \item \texttt{[n]} --- \emph{optional}: number of arguments (1--9); omit if none
-  \item \texttt{definition} --- what the command expands to; use \texttt{\#1}, \texttt{\#2}\ldots for arguments
+  \item \texttt{\textbackslash name} --- the command being created
+  \item \texttt{[n]} --- number of arguments (1--9); omit if none
+  \item \texttt{definition} --- the expansion; use \texttt{\#1}, \texttt{\#2} for arguments
 \end{itemize}
 \medskip
-Examples from \texttt{main.tex}:
+From \texttt{main.tex} --- no arguments:
 \begin{bluefocus}
-\texttt{\textbackslash newcommand\{\textbackslash warn\}\{\textbackslash textcolor\{orange\}\{\textbackslash textbf\{Not part of the syllabus\}\}\}}\\[4pt]
-\texttt{\textbackslash newcommand\{\textbackslash warnCustomMsg\}[2][orange]\{\textbackslash textcolor\{\#1\}\{\textbackslash textbf\{\#2\}\}\}}
+\small\texttt{\textbackslash newcommand\{\textbackslash warn\}\{}\\\texttt{\quad\textbackslash textcolor\{orange\}\{\textbackslash faExclamationTriangle\ \textbackslash textbf\{Not part of the syllabus\}\}\}}
 \end{bluefocus}
-\medskip
-The second example uses \texttt{[2][orange]}: 2 arguments, first has default value \texttt{orange}.
+With 2 arguments, first has default \texttt{orange}:
+\begin{bluefocus}
+\small\texttt{\textbackslash newcommand\{\textbackslash warnCustomMsg\}[2][orange]\{\textbackslash textcolor\{\#1\}\{\textbackslash textbf\{\#2\}\}\}}
+\end{bluefocus}
 \end{frame}
 
 % --- Slide 12: \tcbset syntax ---
 \blueheader
 \begin{frame}{\texttt{\textbackslash tcbset} --- Global Box Defaults}
-\texttt{\textbackslash tcbset} sets \textbf{default options} for all \texttt{tcolorbox} environments that follow:
+\texttt{\textbackslash tcbset\{key=value, ...\}} sets \textbf{default options} inherited by all boxes that follow.
 \medskip
-\begin{bluefocus}
-\texttt{\textbackslash tcbset\{key=value, key=value, ...\}}
-\end{bluefocus}
-\medskip
+
 From \texttt{main.tex}:
 \begin{bluefocus}
-\texttt{\textbackslash tcbset\{}\\
-\quad \texttt{colback=white,} \hfill \textit{background color}\\
-\quad \texttt{fonttitle=\textbackslash bfseries,} \hfill \textit{bold titles}\\
-\quad \texttt{breakable,} \hfill \textit{allow page breaks}\\
-\quad \texttt{enhanced,} \hfill \textit{enable advanced drawing}\\
-\quad \texttt{top=2pt, bottom=0pt, left=0pt, right=6pt,}\\
-\quad \texttt{boxsep=4pt}\\
-\texttt{\}}
+\small
+\begin{tabular}{@{}ll@{}}
+\texttt{colback=white} & background color\\
+\texttt{fonttitle=\textbackslash bfseries} & bold title text\\
+\texttt{breakable} & allow page breaks\\
+\texttt{enhanced} & enable advanced drawing\\
+\texttt{top=2pt, bottom=0pt} & inner vertical padding\\
+\texttt{left=0pt, right=6pt} & inner horizontal padding\\
+\texttt{boxsep=4pt} & space between border and content\\
+\end{tabular}
 \end{bluefocus}
 \medskip
-Any \texttt{tcolorbox} or \texttt{\textbackslash newtcbtheorem} box inherits these defaults automatically.
+Every \texttt{\textbackslash newtcbtheorem} and \texttt{\textbackslash newtcolorbox} inherits these automatically.
 \end{frame}
 
 % --- Slide 13: \newtcbtheorem syntax ---
 \blueheader
 \begin{frame}{\texttt{\textbackslash newtcbtheorem} --- Numbered Box Environments}
-\texttt{\textbackslash newtcbtheorem} creates a \textbf{numbered, titled box environment}:
-\medskip
 \begin{bluefocus}
-\texttt{\textbackslash newtcbtheorem[counter options]\{envname\}\{Title\}\{tcolorbox options\}\{prefix\}}
+\small\texttt{\textbackslash newtcbtheorem[counter opts]\{envname\}\{Title\}\{tcb opts\}\{prefix\}}
 \end{bluefocus}
-\medskip
 \begin{itemize}
-  \item \texttt{[counter options]} --- e.g.\ \texttt{number within=section} or \texttt{use counter from=bluebox}
-  \item \texttt{envname} --- the environment name you use in your document
-  \item \texttt{Title} --- the label printed in the box header (e.g.\ \emph{Definition}, \emph{Theorem})
-  \item \texttt{\{tcolorbox options\}} --- extra styling, e.g.\ \texttt{colframe=myblue}
-  \item \texttt{prefix} --- namespace for \texttt{\textbackslash ref} labels, e.g.\ \texttt{bluebox}
+  \item \texttt{[counter opts]} --- \texttt{use counter from=bluebox} shares one counter across all box types
+  \item \texttt{envname} --- name used in \texttt{\textbackslash begin\{...\}}
+  \item \texttt{Title} --- text shown in box header, e.g.\ \emph{Definition}
+  \item \texttt{tcb opts} --- extra style, e.g.\ \texttt{colframe=myblue}
+  \item \texttt{prefix} --- label namespace for \texttt{\textbackslash ref}, e.g.\ \texttt{bluebox}
 \end{itemize}
 \medskip
+Usage:
 \begin{bluefocus}
-\texttt{\textbackslash newtcbtheorem\{bluebox\}\{Definition\}\{colframe=myblue\}\{bluebox\}}\\[2pt]
-Then use: \texttt{\textbackslash begin\{bluebox\}\{My Title\}\{mylabel\} ... \textbackslash end\{bluebox\}}
+\small\texttt{\textbackslash begin\{bluebox\}\{My Title\}\{mylabel\}}\\
+\texttt{\quad ...content...}\\
+\texttt{\textbackslash end\{bluebox\}}
 \end{bluefocus}
 \end{frame}
