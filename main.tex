@@ -46,6 +46,7 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{siunitx}
+\usepackage{xspace}
 \sisetup{detect-all, per-mode=symbol, separate-uncertainty=true}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
@@ -104,16 +105,16 @@
 % Warning and info macros
 % -------------------------------
 \newcommand{\warn}{%
-  \textcolor{orange}{\faExclamationTriangle\ \textbf{Not part of the syllabus}}%
+  \textcolor{orange}{\faExclamationTriangle\ \textbf{Not part of the syllabus}}\xspace%
 }
 \newcommand{\warnCustomMsg}[2][orange]{%
-  \textcolor{#1}{\faExclamationTriangle\ \textbf{#2}}%
+  \textcolor{#1}{\faExclamationTriangle\ \textbf{#2}}\xspace%
 }
 \newcommand{\info}{%
-  \textcolor{blue}{\faInfoCircle\ \textbf{For your information}}%
+  \textcolor{blue}{\faInfoCircle\ \textbf{For your information}}\xspace%
 }
 \newcommand{\infoCustomMsg}[2][myblue]{%
-  \textcolor{#1}{\faInfoCircle\ \textbf{#2}}%
+  \textcolor{#1}{\faInfoCircle\ \textbf{#2}}\xspace%
 }
 
 % -------------------------------
@@ -125,8 +126,8 @@
   fonttitle=\bfseries,
   breakable,
   enhanced,
-  top=2pt,bottom=0pt,left=0pt,right=6pt,
-  boxsep=4pt
+  top=2pt,bottom=2pt,left=2pt,right=2pt,
+  boxsep=3pt
 }
 
 \newtcbtheorem{bluebox}{Definition}%
@@ -150,11 +151,11 @@
 % -------------------------------
 % Focus boxes with blue, red, green, cyan, magenta background and no frame and no title with a simple command.
 % We use a numbers to lighten the basic colors for each color seperate here in the definition of the focus boxes.
-\newtcolorbox{bluefocus}{colback=myblue!15, colframe=white, title={}}
-\newtcolorbox{redfocus}{colback=myred!15, colframe=white, title={}}
-\newtcolorbox{greenfocus}{colback=mygreen!15, colframe=white, title={}}
-\newtcolorbox{cyanfocus}{colback=mycyan!15, colframe=white, title={}}
-\newtcolorbox{magentafocus}{colback=mymagenta!15, colframe=white, title={}}
+\newtcolorbox{bluefocus}{colback=myblue!15, colframe=white}
+\newtcolorbox{redfocus}{colback=myred!15, colframe=white}
+\newtcolorbox{greenfocus}{colback=mygreen!15, colframe=white}
+\newtcolorbox{cyanfocus}{colback=mycyan!15, colframe=white}
+\newtcolorbox{magentafocus}{colback=mymagenta!15, colframe=white}
 
 
 % ======================================================================
@@ -164,22 +165,21 @@
 
 % Example slide
 % \blueheader
-% \begin{blue}
-%  \frametitle{Linear Transformations}
-%  \begin{blue}{Linear Transformation}
+% \begin{frame}{Linear Transformations}
+%  \begin{bluebox}{Linear Transformation}{thm:linear}
 %    A mapping $T: V \to W$ is called
 %    \emph{linear} if it satisfies
 %    \[
 %      T(u+v) = T(u) + T(v), \qquad T(\alpha v) = \alpha T(v).
 %       \]
-%  \end{blue}
+%  \end{bluebox}
 % \end{frame}
 
 % Content modules
-% \include{Abstract-linear-algebra.tex}
-% \include{Italian-Pronunciationa.tex}
-% \include{French-Pronunciation.tex}
-%\include{focusbox-example.tex}
-\include{latex-crash-course.tex}
+% \include{Abstract-Linear-Algebra}
+% \include{Italian-Pronunciation}
+% \include{French-Pronunciation}
+\include{focusbox-example}
+%\include{latex-crash-course}
 \end{document}
 
