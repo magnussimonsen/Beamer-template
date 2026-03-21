@@ -12,11 +12,12 @@
 
 This repository contains a Beamer template for teaching mathematics, physics, and languages. It extends the **Copenhagen** theme with:
 
-- **Custom color palette**: `myblue`, `myred`, `mygreen`, `mycyan`, `mymagenta`  
-- **Header macros**: `\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`, `\magentaheader`  
+- **Custom color palette**: `myblue`, `myred`, `mygreen`, `mycyan`, `mygray`  
+- **Header macros**: `\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`, `\grayheader`  
 - **tcolorbox environments**: colored frames for definitions, rules, examples, tasks  
 - **Clean layout**: frame numbers visible, navigation symbols hidden  
 - **Utility macros**: `\warn`, `\warnCustomMsg`, `\info`, `\infoCustomMsg`  
+- **Math macros**: `\norm{}`, `\abs{}` for vectors and absolute values  
 - **IPA support**: via `tipa` (pdfLaTeX) or Unicode IPA (XeLaTeX/LuaLaTeX)
 
 ---
@@ -121,7 +122,7 @@ cd beamer-template
 
 Open `main.tex`, toggle which modules to include:
 ```latex
-% \include{Abstract-linear-algebra}
+% \include{Abstract-Linear-Algebra}
 % \include{Italian-Pronunciation}
 \include{French-Pronunciation}
 ```
@@ -134,8 +135,9 @@ Build using one of the options above.
 
 ```
 .
-├── main.tex                 # theme, colors, macros, includes
-├── Abstract-linear-algebra.tex
+├── preamble.tex             # theme, packages, colors, layout macros
+├── main.tex                 # root file (loads preamble and includes chapters)
+├── Abstract-Linear-Algebra.tex
 ├── Italian-Pronunciation.tex
 ├── French-Pronunciation.tex
 ├── figures/                 # images if needed
