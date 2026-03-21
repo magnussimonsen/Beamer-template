@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.18)  21 MAR 2026 03:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.18)  21 MAR 2026 03:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,7 +7,7 @@ entering extended mode
 (c:/Users/magnu/Beamer-template/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
-(C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+(preamble.tex (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
 Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
 (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.sty (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
@@ -1101,39 +1101,39 @@ LaTeX Info: Redefining \addtolength on input line 87.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 77.
 \c@tcb@cnt@bluebox=\count419
- (main.aux (Abstract-Linear-Algebra.aux))
+) (main.aux (Abstract-Linear-Algebra.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 167.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 6.
  (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 167.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 167.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 6.
  (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    ... okay on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1188,57 +1188,57 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 167.
+Package hyperref Info: Link coloring ON on input line 6.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 167.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 167.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ComicNeue-TLF/m/n on input line 167.
+(Font)                  OT1/cmss/m/n --> OT1/ComicNeue-TLF/m/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/ComicNeue-TLF/b/n on input line 167.
+(Font)                  OT1/cmss/b/n --> OT1/ComicNeue-TLF/b/n on input line 6.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/ComicNeue-TLF/m/n --> T1/lmr/m/n on input line 167.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 167.
+(Font)                  OT1/ComicNeue-TLF/m/n --> T1/lmr/m/n on input line 6.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 167.
+(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 167.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 167.
+(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 6.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/ComicNeue-TLF/m/n on input line 167.
+(Font)                  OT1/lmss/m/n --> T1/ComicNeue-TLF/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/ComicNeue-TLF/m/n on input line 167.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 167.
+(Font)                  OT1/lmss/bx/n --> T1/ComicNeue-TLF/m/n on input line 6.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/ComicNeue-TLF/m/it on input line 167.
+(Font)                  OT1/lmr/m/it --> T1/ComicNeue-TLF/m/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/ComicNeue-TLF/m/it on input line 167.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 167.
+(Font)                  OT1/lmr/bx/it --> T1/ComicNeue-TLF/m/it on input line 6.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 167.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 167.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 167.
+(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 167.
+(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/ComicNeue-TLF/b/n --> T1/lmr/b/n on input line 167.
+(Font)                  OT1/ComicNeue-TLF/b/n --> T1/lmr/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/ComicNeue-TLF/b/n --> T1/ComicNeue-TLF/b/n on input line 167.
+(Font)                  T1/ComicNeue-TLF/b/n --> T1/ComicNeue-TLF/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 167.
+(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 167.
+(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 167.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 6.
  (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -1252,13 +1252,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 167.
-Package microtype Info: Applying patch `item' on input line 167.
-Package microtype Info: Applying patch `toc' on input line 167.
-Package microtype Info: Applying patch `eqnum' on input line 167.
-Package microtype Info: Applying patch `footnote' on input line 167.
-Package microtype Info: Applying patch `verbatim' on input line 167.
-LaTeX Info: Redefining \microtypesetup on input line 167.
+LaTeX Info: Redefining \microtypecontext on input line 6.
+Package microtype Info: Applying patch `item' on input line 6.
+Package microtype Info: Applying patch `toc' on input line 6.
+Package microtype Info: Applying patch `eqnum' on input line 6.
+Package microtype Info: Applying patch `footnote' on input line 6.
+Package microtype Info: Applying patch `verbatim' on input line 6.
+LaTeX Info: Redefining \microtypesetup on input line 6.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1276,14 +1276,14 @@ Package microtype Info: Loading generic protrusion settings for font family
  (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 167.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 6.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \c@lstlisting=\count426
 (main.nav)
 LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 167.
+(Font)              `T1/ComicNeue-TLF/regular/n' on input line 6.
 \openout2 = `Abstract-Linear-Algebra.aux'.
 
  (Abstract-Linear-Algebra.tex
@@ -1410,13 +1410,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53083 strings out of 467871
- 1286782 string characters out of 5418376
- 1766039 words of memory out of 5000000
- 80917 multiletter control sequences out of 15000+600000
+ 53091 strings out of 467871
+ 1286947 string characters out of 5418376
+ 1766052 words of memory out of 5000000
+ 80922 multiletter control sequences out of 15000+600000
  716818 words of font info for 177 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,123p,1032b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 133i,11n,126p,1032b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Bold.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Italic.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Regular.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on main.pdf (8 pages, 110926 bytes).
 PDF statistics:
