@@ -83,7 +83,7 @@ Key packages in \texttt{main.tex}:
 \texttt{\textbackslash colorlet\{myred\}\{black!35!red\}}\\
 \texttt{\textbackslash colorlet\{mygreen\}\{black!35!green\}}\\
 \texttt{\textbackslash colorlet\{mycyan\}\{cyan\}}\\
-\texttt{\textbackslash definecolor\{mymagenta\}\{rgb\}\{0.54,0.0,0.54\}}
+\texttt{\textbackslash colorlet\{mygray\}\{black!65\}}
 \end{bluefocus}
 \medskip
 \texttt{black!35!blue} means: 35\% black mixed into blue --- giving a \textcolor{myblue}{\textbf{darker, richer blue}}.
@@ -99,7 +99,7 @@ To set the frametitle bar color, call one of these \textbf{before} \texttt{\text
 \texttt{\textbackslash redheader} \quad
 \texttt{\textbackslash greenheader} \quad
 \texttt{\textbackslash cyanheader} \quad
-\texttt{\textbackslash magentaheader}
+\texttt{\textbackslash grayheader}
 \end{bluefocus}
 \medskip
 Example usage:
@@ -121,7 +121,7 @@ Five theorem-style box environments are defined:
   \item \texttt{redbox} --- Theorem
   \item \texttt{greenbox} --- Example
   \item \texttt{cyanbox} --- Exercise
-  \item \texttt{magentabox} --- Explore
+  \item \texttt{graybox} --- Explore
 \end{itemize}
 \medskip
 Usage requires a \textbf{title} and a \textbf{label}:
@@ -140,7 +140,7 @@ For \textbf{highlighted text with no title}, use focus boxes:
 \begin{bluefocus}
 \texttt{\textbackslash begin\{bluefocus\}} \quad \texttt{\textbackslash begin\{redfocus\}}\\
 \texttt{\textbackslash begin\{greenfocus\}} \quad \texttt{\textbackslash begin\{cyanfocus\}}\\
-\texttt{\textbackslash begin\{magentafocus\}}
+\texttt{\textbackslash begin\{grayfocus\}}
 \end{bluefocus}
 \medskip
 Example --- this sentence is in a blue focus box:

@@ -14,12 +14,13 @@
 % -------------------------------
 % Encoding, language, typography
 % -------------------------------
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[english]{babel}
-\usepackage{lmodern}
-\usepackage{microtype}
+\usepackage[utf8]{inputenc}   % Allows typing UTF-8 characters directly
+\usepackage[T1]{fontenc}      % Correct font encoding for European languages
+\usepackage[english]{babel}   % Sets document language for hyphenation and formatting
+\usepackage{lmodern}          % Loads the Latin Modern font (improved default LaTeX font)
+\usepackage{microtype}        % Improves character spacing and text alignment automatically
 \usepackage{comicneue}        % Comic Sans refined
+%\usepackage[sfdefault]{atkinson}
 %\usepackage{iwona}            % Humanist sans, friendly feel
 %\usepackage{kurier}           % Similar to Iwona, slightly rounder
 %\usepackage{aurical}          % Handwritten cursive style
@@ -41,23 +42,25 @@
 % -------------------------------
 % Commonly used packages
 % -------------------------------
-\usepackage{amsmath, amsfonts, amsthm, amssymb}
-\usepackage{graphicx}
-\usepackage{xcolor}
-\usepackage{hyperref}
-\usepackage{siunitx}
-\usepackage{xspace}
+\usepackage{amsmath, amsfonts, amsthm, amssymb} % Core tools for math equations, fonts, and symbols
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\usepackage{graphicx}                           % Allows inserting and scaling images
+\usepackage{xcolor}                             % Provides advanced text and background colors
+\usepackage{hyperref}                           % Creates clickable links and PDF bookmarks
+\usepackage{siunitx}                            % Formats numbers and physical SI units globally
+\usepackage{xspace}                             % Smartly handles spaces after your custom commands
 \sisetup{detect-all, per-mode=symbol, separate-uncertainty=true}
-\usepackage{pgfplots}
+\usepackage{pgfplots}                           % Draws high-quality data plots directly in LaTeX
 \pgfplotsset{compat=1.18}
-\usepackage{tikz}
-\usepackage[most]{tcolorbox}
-\usepackage{fontawesome5}
-%\usepackage{minted} % requires --shell-escape for compilation
-\usepackage{tipa}
+\usepackage{tikz}                               % Powerful drawing engine for vector graphics
+\usepackage[most]{tcolorbox}                    % Creates the advanced colored boxes for focus/theorems
+\usepackage{fontawesome5}                       % Gives access to FontAwesome icons (used in \warn / \info)
+%\usepackage{minted}                            % Advanced syntax highlighting for code (requires Python setup)
+\usepackage[safe]{tipa}                         % Phonetic characters ('safe' prevents math symbol crashes)
 
 % Optional: multi-slide handout layout
-\usepackage{pgfpages}
+\usepackage{pgfpages}                           % Combines multiple slides onto a single physical printed page
 % \pgfpagesuselayout{2 on 1}[a4paper, border shrink=5mm]
 % \pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm]
 
@@ -76,11 +79,11 @@
 % -------------------------------
 % Custom colors
 % -------------------------------
-\colorlet{myblue}{black!35!blue}
-\colorlet{myred}{black!35!red}
-\colorlet{mygreen}{black!35!green}
-\colorlet{mycyan}{cyan}
-\definecolor{mymagenta}{rgb}{0.54,0.0,0.54}
+\colorlet{myblue}{black!45!blue!85}
+\colorlet{myred}{black!45!red!95}
+\colorlet{mygreen}{black!45!green!90}
+\colorlet{mycyan}{black!25!cyan}
+\colorlet{mygray}{black!65}
 
 % -------------------------------
 % Frame color shortcuts
@@ -95,25 +98,25 @@
   \setbeamercolor{frametitle}{bg=mygreen, fg=white}%
 }
 \newcommand{\cyanheader}{%
-  \setbeamercolor{frametitle}{bg=mycyan, fg=black}%
+  \setbeamercolor{frametitle}{bg=mycyan, fg=white}%
 }
-\newcommand{\magentaheader}{%
-  \setbeamercolor{frametitle}{bg=mymagenta, fg=white}%
+\newcommand{\grayheader}{%
+  \setbeamercolor{frametitle}{bg=mygray, fg=white}%
 }
 
 % -------------------------------
 % Warning and info macros
 % -------------------------------
 \newcommand{\warn}{%
-  \textcolor{orange}{\faExclamationTriangle\ \textbf{Not part of the syllabus}}\xspace%
+  \textcolor{red}{\faExclamationTriangle\ \textbf{Not part of the syllabus}}\xspace%
 }
-\newcommand{\warnCustomMsg}[2][orange]{%
+\newcommand{\warnCustomMsg}[2][red]{%
   \textcolor{#1}{\faExclamationTriangle\ \textbf{#2}}\xspace%
 }
 \newcommand{\info}{%
   \textcolor{blue}{\faInfoCircle\ \textbf{For your information}}\xspace%
 }
-\newcommand{\infoCustomMsg}[2][myblue]{%
+\newcommand{\infoCustomMsg}[2][blue]{%
   \textcolor{#1}{\faInfoCircle\ \textbf{#2}}\xspace%
 }
 
@@ -142,20 +145,20 @@
 \newtcbtheorem[use counter from=bluebox]{cyanbox}{Exercise}%
 {colframe=mycyan}{cyanbox}
 
-\newtcbtheorem[use counter from=bluebox]{magentabox}{Explore}%
-{colframe=mymagenta}{magentabox}
+\newtcbtheorem[use counter from=bluebox]{graybox}{Explore}%
+{colframe=mygray}{graybox}
 
 % Optionally number theorems on slides:
 % \setbeamertemplate{theorems}[numbered]
 
 % -------------------------------
-% Focus boxes with blue, red, green, cyan, magenta background and no frame and no title with a simple command.
+% Focus boxes with blue, red, green, cyan, gray background and no frame and no title with a simple command.
 % We use a numbers to lighten the basic colors for each color seperate here in the definition of the focus boxes.
 \newtcolorbox{bluefocus}{colback=myblue!15, colframe=white}
 \newtcolorbox{redfocus}{colback=myred!15, colframe=white}
 \newtcolorbox{greenfocus}{colback=mygreen!15, colframe=white}
 \newtcolorbox{cyanfocus}{colback=mycyan!15, colframe=white}
-\newtcolorbox{magentafocus}{colback=mymagenta!15, colframe=white}
+\newtcolorbox{grayfocus}{colback=mygray!15, colframe=white}
 
 
 % ======================================================================
@@ -176,10 +179,9 @@
 % \end{frame}
 
 % Content modules
-% \include{Abstract-Linear-Algebra}
+ \include{Abstract-Linear-Algebra}
 % \include{Italian-Pronunciation}
 % \include{French-Pronunciation}
-\include{focusbox-example}
+%\include{focusbox-example}
 %\include{latex-crash-course}
 \end{document}
-

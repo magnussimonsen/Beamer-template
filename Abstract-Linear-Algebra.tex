@@ -22,7 +22,7 @@ satisfying for all $u,v,w \in V$, $\alpha,\beta \in \mathbb{F}$:
 % --- Slide 2: Remark ---
 \redheader
 \begin{frame}{Abstract Linear Algebra: Remark}
-\begin{red*}{Remark}
+\begin{redbox*}{Remark}
 A vector space by itself only has the structure provided by addition and scalar multiplication.
 
 \medskip
@@ -30,13 +30,13 @@ A vector space by itself only has the structure provided by addition and scalar 
     \item It does \emph{not} include a notion of \textbf{length}, \textbf{angle}, or \textbf{orthogonality}.
     \item These geometric notions are \textbf{induced} once we add an \textbf{inner product} and, from it, a norm.
 \end{itemize}
-\end{red*}
+\end{redbox*}
 \end{frame}
 
 % --- Slide 3: Inner Product ---
 \blueheader
 \begin{frame}{Abstract Linear Algebra: Inner Product}
-\begin{blue*}{Definition}
+\begin{bluebox*}{Definition}
 An \textbf{inner product} on a real vector space $V$ is a function
 \[
 \langle \cdot, \cdot \rangle : V \times V \to \mathbb{R}
@@ -48,13 +48,13 @@ such that for all $u,v,w \in V$, $\alpha \in \mathbb{R}$:
     \item $\langle \alpha u, v \rangle = \alpha \langle u,v \rangle$ \hfill (homogeneity)
     \item $\langle v,v \rangle \ge 0$, and $\langle v,v \rangle = 0 \iff v=0$ \hfill (positivity/definiteness)
 \end{enumerate}
-\end{blue*}
+\end{bluebox*}
 \end{frame}
 
 % --- Slide 4: Norm from Inner Product ---
 \redheader
 \begin{frame}{Abstract Linear Algebra: Norm}
-\begin{red*}{Definition}
+\begin{redbox*}{Definition}
 Given an inner product $\langle \cdot, \cdot \rangle$ on $V$, the induced \textbf{norm} is
 \[
 \norm{v} = \sqrt{\langle v, v \rangle}, \quad v \in V.
@@ -66,13 +66,13 @@ This norm yields geometric notions:
     \item \textbf{Angle}: $\displaystyle \cos \theta = \frac{\langle u, v \rangle}{\norm{u}\,\norm{v}}$ (for $u,v\neq 0$)
     \item \textbf{Orthogonality}: $u \perp v \iff \langle u, v \rangle = 0$
 \end{itemize}
-\end{red*}
+\end{redbox*}
 \end{frame}
 
 % --- Slide 5: Example ---
 \greenheader
 \begin{frame}{Abstract Linear Algebra: Example}
-\begin{green*}{Example}
+\begin{greenbox*}{Example}
 Let $V = \mathbb{R}^2$ with the standard inner product
 \[
 \langle u, v \rangle = u_1 v_1 + u_2 v_2.
@@ -82,26 +82,26 @@ For $u = (3,4)$ and $v = (4,-3)$:
 \langle u, v \rangle = 3 \cdot 4 + 4 \cdot (-3) = 12 - 12 = 0.
 \]
 Thus $u \perp v$. Also $\norm{u} = \sqrt{3^2+4^2}=5$.
-\end{green*}
+\end{greenbox*}
 \end{frame}
 
 % --- Slide 6: Exercise ---
 \cyanheader
 \begin{frame}{Abstract Linear Algebra: Exercise}
-\begin{cyan*}{Exercise}
+\begin{cyanbox*}{Exercise}
 Let $u=(1,2,2)$ and $v=$(2,0,1) in $\mathbb{R}^3$ with the standard inner product.
 \begin{enumerate}
     \item Compute $\langle u,v \rangle$.
     \item Find $\norm{u}$ and $\norm{v}$.
     \item Determine the cosine of the angle between $u$ and $v$.
 \end{enumerate}
-\end{cyan*}
+\end{cyanbox*}
 \end{frame}
 
 % --- Slide 7: Exploration Task ---
-\magentaheader
+\grayheader
 \begin{frame}{Abstract Linear Algebra: Exploration}
-\begin{magenta*}{Task for Exploration}
+\begin{graybox*}{Task for Exploration}
 Work with the standard inner product on $\mathbb{R}^2$ or $\mathbb{R}^3$.
 \begin{enumerate}
     \item Pick two vectors $u$ and $v$. Compute
@@ -112,7 +112,7 @@ Work with the standard inner product on $\mathbb{R}^2$ or $\mathbb{R}^3$.
     \item Compare $\norm{u+v}$ with $\norm{u}+\norm{v}$. Does it always hold?
     \item Explore special cases: $u$ and $v$ linearly dependent; $u \perp v$.
 \end{enumerate}
-\end{magenta*}
+\end{graybox*}
 
 \medskip
 \infoCustomMsg{\small You are rediscovering the Cauchy--Schwarz inequality and the triangle inequality. Equality holds when $u$ and $v$ are linearly dependent (Cauchy--Schwarz), and when $u$ and $v$ point in the same direction (triangle).}
