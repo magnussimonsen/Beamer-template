@@ -1,4 +1,4 @@
-# Beamer $\LaTeX$ Teaching Template (Copenhagen theme)
+# Beamer $\LaTeX$ Teaching Template
 
 ## Preview
 
@@ -10,13 +10,16 @@
 
 [French Pronunciation PDF](French-Pronunciation.pdf)
 
-This repository contains a Beamer template for teaching mathematics, physics, and languages. It extends the **Copenhagen** theme with:
+This repository contains a Beamer template for teaching mathematics, physics, and languages. It uses a minimalist theme-less Beamer layout with:
 
 - **Custom color palette**: `myblue`, `myred`, `mygreen`, `mycyan`, `mygray`  
 - **Header macros**: `\blueheader`, `\redheader`, `\greenheader`, `\cyanheader`, `\grayheader`  
-- **tcolorbox environments**: colored frames for definitions, rules, examples, tasks  
-- **Clean layout**: frame numbers visible, navigation symbols hidden  
-- **Utility macros**: `\warn`, `\warnCustomMsg`, `\info`, `\infoCustomMsg`  
+- **tcolorbox theorem environments**: `bluebox` (Definition), `redbox` (Theorem), `greenbox` (Example), `cyanbox` (Exercise), `graybox` (Explore)  
+- **tcolorbox focus environments**: frameless highlight boxes — `bluefocus`, `redfocus`, `greenfocus`, `cyanfocus`, `grayfocus`  
+- **Clean layout**: frame numbers visible, navigation symbols hidden, custom `\faAngleRight` bullets  
+- **Default font**: Comic Neue (`comicneue`), with several alternatives commented out  
+- **Handout mode**: `handout` option in `\documentclass` enabled by default; optional 2-up / 4-up layout via `pgfpages`  
+- **Utility macros**: `\warn`, `\warnCustomMsg[color]{msg}`, `\info`, `\infoCustomMsg[color]{msg}`  
 - **Math macros**: `\norm{}`, `\abs{}` for vectors and absolute values  
 - **IPA support**: via `tipa` (pdfLaTeX) or Unicode IPA (XeLaTeX/LuaLaTeX)
 
@@ -33,16 +36,44 @@ Bullet 1
 ```
 
 ### 2) Theorem-like boxes with matching colors
+
+Environments: `bluebox` (Definition), `redbox` (Theorem), `greenbox` (Example), `cyanbox` (Exercise), `graybox` (Explore).  
+Syntax: `\begin{<env>}{Title}{label}`
+
 ```latex
-\begin{red*}{Rule}
+\begin{redbox}{Rule}{lbl:rule}
 State a key rule or takeaway here.
-\end{red*}
+\end{redbox}
+
+\begin{bluebox}{Definition}{lbl:def}
+A formal definition here.
+\end{bluebox}
 ```
 
-### 3) Info and warning callouts
+### 3) Focus (highlight) boxes — no title, no frame
+
+Use for soft highlights inside a frame.
+
 ```latex
-\infoCustomMsg{This helps but is not examinable detail.}
+\begin{bluefocus}
+Highlighted fact in a soft blue background.
+\end{bluefocus}
+
+\begin{redfocus}
+Highlighted warning in a soft red background.
+\end{redfocus}
+```
+
+### 4) Info and warning callouts
+
+`\warn` and `\info` use fixed default messages.  
+`\warnCustomMsg` and `\infoCustomMsg` accept an optional color and a required message:
+
+```latex
+\warn                                          % "Not part of the syllabus" in red
+\info                                          % "For your information" in blue
 \warnCustomMsg[orange]{Not part of curriculum}
+\infoCustomMsg[blue]{This helps but is not examinable.}
 ```
 
 ### 4) IPA in slides
@@ -140,6 +171,8 @@ Build using one of the options above.
 ├── Abstract-Linear-Algebra.tex
 ├── Italian-Pronunciation.tex
 ├── French-Pronunciation.tex
+├── focusbox-example.tex     # demo of focus and theorem boxes
+├── latex-crash-course.tex   # optional LaTeX reference slides
 ├── figures/                 # images if needed
 └── README.md
 ```
@@ -171,6 +204,6 @@ Copyright © 2025 Magnus Simonsen.
 
 ### Credits and notes
 
-- Theme: Beamer Copenhagen with small layout tweaks.
+- Theme: Minimal theme-less Beamer layout with custom frametitle, footline, and bullets.
 - Icons: `fontawesome5` for info and warning callouts.
 - IPA: `tipa` for pdfLaTeX or Unicode IPA via XeLaTeX/LuaLaTeX.
