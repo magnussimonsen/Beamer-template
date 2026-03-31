@@ -37,8 +37,13 @@
 \setbeamertemplate{headline}{}                % Remove header line
 \setbeamertemplate{footline}[frame number]    % Frame number only
 \setbeamertemplate{navigation symbols}{}      % Hide navigation icons
-\addtobeamertemplate{frametitle}{\vspace{-4pt}}{\vspace{-8pt}} % Reduce header height
-
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip % This removes the default vertical space above the title text
+  % ht = space above title text, dp = space below title text (inside the bar)
+  \begin{beamercolorbox}[wd=\paperwidth, ht=2.1ex, dp=0.8ex, leftskip=0.3cm]{frametitle}%
+    \usebeamerfont{frametitle}\insertframetitle%
+  \end{beamercolorbox}%
+}
 % Custom bullet points
 \setbeamertemplate{itemize item}{\textcolor{black}{\faAngleRight }}
 \setbeamertemplate{itemize subitem}{\textcolor{black}{\faAngleRight\faAngleRight}}
