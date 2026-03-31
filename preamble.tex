@@ -1,4 +1,4 @@
-
+% !TEX root = main.tex
 % ======================================================================
 % Beamer template for lectures (16:9 handout version)
 % MIT © 2025 Magnus Simonsen
@@ -32,12 +32,17 @@
 % -------------------------------
 % Beamer theme and navigation
 % -------------------------------
-\usetheme{Copenhagen}
+%\usetheme{Copenhagen}
 \setbeamercovered{transparent}
 \setbeamertemplate{headline}{}                % Remove header line
 \setbeamertemplate{footline}[frame number]    % Frame number only
 \setbeamertemplate{navigation symbols}{}      % Hide navigation icons
 \addtobeamertemplate{frametitle}{\vspace{-4pt}}{\vspace{-8pt}} % Reduce header height
+
+% Custom bullet points
+\setbeamertemplate{itemize item}{\textcolor{black}{\faAngleRight }}
+\setbeamertemplate{itemize subitem}{\textcolor{black}{\faAngleRight\faAngleRight}}
+\setbeamertemplate{itemize subsubitem}{\textcolor{black}{\faAngleRight\faAngleRight}}
 
 % -------------------------------
 % Commonly used packages
@@ -79,11 +84,11 @@
 % -------------------------------
 % Custom colors
 % -------------------------------
-\colorlet{myblue}{black!45!blue!85}
-\colorlet{myred}{black!45!red!95}
-\colorlet{mygreen}{black!45!green!90}
+\colorlet{myblue}{black!45!blue!80}
+\colorlet{myred}{black!45!red!80}
+\colorlet{mygreen}{black!45!green!80}
 \colorlet{mycyan}{black!25!cyan}
-\colorlet{mygray}{black!65}
+\colorlet{mygray}{black!75}
 
 % -------------------------------
 % Frame color shortcuts

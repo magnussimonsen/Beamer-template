@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.18)  1 APR 2026 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.18)  1 APR 2026 00:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/magnu/Beamer-template/main.tex
-(c:/Users/magnu/Beamer-template/main.tex
+**c:/Users/magnu/Beamer-template/preamble.tex
+(c:/Users/magnu/Beamer-template/preamble.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
-(preamble.tex (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+(C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
 Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
 (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.sty (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
@@ -780,7 +780,7 @@ File: ly1enc.dfu 2022/06/07 v1.3c UTF-8 support
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 116.
  (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+))) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeCopenhagen.sty (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemesplit.sty) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeorchid.sty)) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count363
 \l__siunitx_number_exponent_fixed_int=\count364
@@ -1099,364 +1099,21 @@ LaTeX Info: Redefining \addtolength on input line 87.
 \pgfphysicalwidth=\dimen349
 \pgfpages@shipoutbox=\box110
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 82.
+Package hyperref Info: Option `colorlinks' set `true' on input line 77.
 \c@tcb@cnt@bluebox=\count419
-) (main.aux (Abstract-Linear-Algebra.aux) (focusbox-example.aux))
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 6.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
-File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 6.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
-File: t3cmr.fd 2001/12/31 TIPA font definitions
-)
-LaTeX Font Info:    ... okay on input line 6.
+! Emergency stop.
+<*> c:/Users/magnu/Beamer-template/preamble.tex
+                                               
+*** (job aborted, no legal \end found)
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
-* \paperwidth=455.24408pt
-* \paperheight=256.0748pt
-* \textwidth=398.3386pt
-* \textheight=227.62207pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-72.26999pt
-* \headheight=14.22636pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count420
-\scratchdimen=\dimen350
-\scratchbox=\box111
-\nofMPsegments=\count421
-\nofMParguments=\count422
-\everyMPshowfont=\toks63
-\MPscratchCnt=\count423
-\MPscratchDim=\dimen351
-\MPnumerator=\count424
-\makeMPintoPDFobject=\count425
-\everyMPtoPDFconversion=\toks64
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-Package hyperref Info: Link coloring ON on input line 6.
- (main.out) (main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ComicNeue-TLF/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/ComicNeue-TLF/b/n on input line 6.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/ComicNeue-TLF/m/n --> T1/lmr/m/n on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/ComicNeue-TLF/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/ComicNeue-TLF/m/n on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/ComicNeue-TLF/m/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/ComicNeue-TLF/m/it on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/ComicNeue-TLF/b/n --> T1/lmr/b/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/ComicNeue-TLF/b/n --> T1/ComicNeue-TLF/b/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 6.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
-Dictionary: translator-basic-dictionary, Language: English 
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
-Dictionary: translator-bibliography-dictionary, Language: English 
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-environment-dictionary-English.dict
-Dictionary: translator-environment-dictionary, Language: English 
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-months-dictionary-English.dict
-Dictionary: translator-months-dictionary, Language: English 
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-numbers-dictionary-English.dict
-Dictionary: translator-numbers-dictionary, Language: English 
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
-Dictionary: translator-theorem-dictionary, Language: English 
-)
-LaTeX Info: Redefining \microtypecontext on input line 6.
-Package microtype Info: Applying patch `item' on input line 6.
-Package microtype Info: Applying patch `toc' on input line 6.
-Package microtype Info: Applying patch `eqnum' on input line 6.
-Package microtype Info: Applying patch `footnote' on input line 6.
-Package microtype Info: Applying patch `verbatim' on input line 6.
-LaTeX Info: Redefining \microtypesetup on input line 6.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-Package microtype Info: Patching command `\showhyphens'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ComicNeue-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 6.
-
-Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
-
-\c@lstlisting=\count426
-(main.nav)
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 6.
-\openout2 = `Abstract-Linear-Algebra.aux'.
-
- (Abstract-Linear-Algebra.tex
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Trying to load font information for OT1+ComicNeue-TLF on input line 20.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/comicneue\ot1comicneue-tlf.fd
-File: OT1ComicNeue-TLF.fd 2020/04/26 (autoinst) Font definitions for OT1/ComicNeue-TLF.
-)
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 20.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ComicNeue-TLF' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 20.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 20.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 20.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 20.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 20.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 20.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 20.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 20.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 20.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 20.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/b/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/b/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/b/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/it' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/it' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/it' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/it' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/it' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/it' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 20.
- [1
-
-
-{C:/Users/magnu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/comicneue/a_upn2ip.enc}{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/comicneue/a_3f3vls.enc}{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/comicneue/a_trnund.enc}{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] [2
-
-] [3
-
-] [4
-
-{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [5
-
-] [6
-
-]
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 119.
- (C:\Users\magnu\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 119.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 119.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 119.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 119.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 119.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 119.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 119.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 119.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 119.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 119.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 119.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 119.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 119.
- [7
-
-{C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}] [8
-
-])
-\openout2 = `focusbox-example.aux'.
-
- (focusbox-example.tex
-Overfull \vbox (9.72337pt too high) detected at line 30
- []
-
-[9
-
-
-
-
-] [10
-
-])
-\tf@nav=\write6
-\openout6 = `main.nav'.
-
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
-\tf@snm=\write8
-\openout8 = `main.snm'.
-
- (main.aux (Abstract-Linear-Algebra.aux) (focusbox-example.aux))
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-29>
- ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 53070 strings out of 467871
- 1284915 string characters out of 5418376
- 1757486 words of memory out of 5000000
- 80856 multiletter control sequences out of 15000+600000
- 737092 words of font info for 211 fonts, out of 8000000 for 9000
+ 50755 strings out of 467871
+ 1228783 string characters out of 5418376
+ 1716175 words of memory out of 5000000
+ 78877 multiletter control sequences out of 15000+600000
+ 641239 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 133i,11n,126p,1032b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Bold.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-BoldItalic.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Italic.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Regular.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/magnu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (10 pages, 151998 bytes).
-PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 80059 words of extra memory for PDF output out of 89155 (max. 10000000)
-
+ 128i,1n,123p,760b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
