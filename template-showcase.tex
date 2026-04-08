@@ -1,0 +1,161 @@
+% !TEX root = main.tex
+
+% ======================================================================
+% Template Showcase
+% Demonstrates all available environments and macros in preamble.tex
+% ======================================================================
+
+% --- Slide 1: Overview ---
+\blueheader
+\begin{frame}{Template Showcase: Overview}
+This presentation demonstrates the building blocks available in this template.
+\medskip
+\begin{itemize}
+  \item \textbf{Header colors}: \texttt{\textbackslash blueheader}, \texttt{\textbackslash redheader}, \texttt{\textbackslash greenheader}, \texttt{\textbackslash cyanheader}, \texttt{\textbackslash grayheader}
+  \item \textbf{Theorem boxes}: \texttt{bluebox}, \texttt{redbox}, \texttt{greenbox}, \texttt{cyanbox}, \texttt{graybox}
+  \item \textbf{Focus boxes}: \texttt{bluefocus}, \texttt{redfocus}, \texttt{greenfocus}, \texttt{cyanfocus}, \texttt{grayfocus}
+  \item \textbf{Margin macros}: \texttt{\textbackslash warn}, \texttt{\textbackslash info}, \texttt{\textbackslash warnCustomMsg}, \texttt{\textbackslash infoCustomMsg}
+  \item \textbf{Math macros}: \texttt{\textbackslash norm\{\}}, \texttt{\textbackslash abs\{\}}
+\end{itemize}
+\end{frame}
+
+% --- Slide 2: Blue ---
+\blueheader
+\begin{frame}{Template Showcase: Blue}
+\begin{columns}[T]
+  \begin{column}{0.48\textwidth}
+    \begin{bluebox*}{Definition}
+      A \textbf{set} $S$ is called \emph{finite} if there exists a bijection $S \to \{1,\ldots,n\}$ for some $n \in \mathbb{N}$.
+    \end{bluebox*}
+    \medskip
+    \begin{bluebox}{Definition (with label)}{def:finite}
+      Same box, but numbered and referenceable via \texttt{def:finite}.
+    \end{bluebox}
+  \end{column}
+  \begin{column}{0.48\textwidth}
+    \begin{bluefocus}
+      \textbf{bluefocus} --- a titled-free highlight box. Use it to draw attention to a key formula or remark without a formal theorem label.
+      \[
+        e^{i\pi} + 1 = 0
+      \]
+    \end{bluefocus}
+  \end{column}
+\end{columns}
+\end{frame}
+
+% --- Slide 3: Red ---
+\redheader
+\begin{frame}{Template Showcase: Red}
+\begin{columns}[T]
+  \begin{column}{0.48\textwidth}
+    \begin{redbox*}{Theorem}
+      For all $a, b \in \mathbb{R}$,
+      \[
+        (a + b)^2 = a^2 + 2ab + b^2.
+      \]
+    \end{redbox*}
+    \medskip
+    \begin{redbox}{Theorem (numbered)}{thm:binomial}
+      Same box with a counter shared across all box types.
+    \end{redbox}
+  \end{column}
+  \begin{column}{0.48\textwidth}
+    \begin{redfocus}
+      \textbf{redfocus} --- use for warnings, important notes, or anything that demands immediate attention.
+
+      \medskip
+      Avoid using \emph{red} purely decoratively; reserve it for critical content.
+    \end{redfocus}
+  \end{column}
+\end{columns}
+\end{frame}
+
+% --- Slide 4: Green ---
+\greenheader
+\begin{frame}{Template Showcase: Green}
+\begin{columns}[T]
+  \begin{column}{0.48\textwidth}
+    \begin{greenbox*}{Example}
+      Let $f(x) = x^2$. Then $f'(x) = 2x$, so the slope at $x = 3$ is
+      \[
+        f'(3) = 6.
+      \]
+    \end{greenbox*}
+    \medskip
+    \begin{greenbox}{Example (numbered)}{ex:deriv}
+      Same box, numbered.
+    \end{greenbox}
+  \end{column}
+  \begin{column}{0.48\textwidth}
+    \begin{greenfocus}
+      \textbf{greenfocus} --- ideal for worked examples, intuition, or positive reinforcement of a concept just introduced.
+    \end{greenfocus}
+  \end{column}
+\end{columns}
+\end{frame}
+
+% --- Slide 5: Cyan ---
+\cyanheader
+\begin{frame}{Template Showcase: Cyan}
+\begin{columns}[T]
+  \begin{column}{0.48\textwidth}
+    \begin{cyanbox*}{Exercise}
+      Compute $\displaystyle\int_0^1 x^2\,dx$ and verify that the answer equals $\tfrac{1}{3}$.
+    \end{cyanbox*}
+    \medskip
+    \begin{cyanbox}{Exercise (numbered)}{ex:integral}
+      Same box, numbered.
+    \end{cyanbox}
+  \end{column}
+  \begin{column}{0.48\textwidth}
+    \begin{cyanfocus}
+      \textbf{cyanfocus} --- well-suited for exercises, tasks, or student prompts that do not need a formal label.
+    \end{cyanfocus}
+  \end{column}
+\end{columns}
+\end{frame}
+
+% --- Slide 6: Gray ---
+\grayheader
+\begin{frame}{Template Showcase: Gray}
+\begin{columns}[T]
+  \begin{column}{0.48\textwidth}
+    \begin{graybox*}{Exploration}
+      Pick any two vectors $u, v \in \mathbb{R}^2$. Compute $\norm{u+v}$ and compare it with $\norm{u} + \norm{v}$. What do you notice?
+    \end{graybox*}
+    \medskip
+    \begin{graybox}{Exploration (numbered)}{ex:triangle}
+      Same box, numbered.
+    \end{graybox}
+  \end{column}
+  \begin{column}{0.48\textwidth}
+    \begin{grayfocus}
+      \textbf{grayfocus} --- suited for open-ended exploration, background remarks, or supplementary context.
+    \end{grayfocus}
+  \end{column}
+\end{columns}
+\end{frame}
+
+% --- Slide 7: Macros ---
+\blueheader
+\begin{frame}{Template Showcase: Macros}
+
+\textbf{Warning and info macros:}
+\medskip
+\begin{itemize}
+  \item \warn
+  \item \info
+  \item \warnCustomMsg[myblue]{Custom warning in any color}
+  \item \infoCustomMsg[mygreen]{Custom info in any color}
+\end{itemize}
+
+\medskip
+\textbf{Math macros:}
+\medskip
+\begin{itemize}
+  \item Norm: $\norm{v} = \sqrt{\langle v, v \rangle}$
+  \item Absolute value: $\abs{x - y} \leq \abs{x} + \abs{y}$
+  \item Combined: $\abs{\langle u, v \rangle} \leq \norm{u}\,\norm{v}$ \quad (Cauchy--Schwarz)
+\end{itemize}
+
+\end{frame}

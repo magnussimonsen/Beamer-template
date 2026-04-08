@@ -1,0 +1,171 @@
+% !TEX root = main.tex
+% ======================================================================
+% Beamer template for lectures (16:9 handout version)
+% MIT © 2025 Magnus Simonsen
+%
+% This template provides:
+%   - Clean 16:9 Beamer slides optimized for handouts.
+%   - Color macros and tcolorboxes for structure and emphasis.
+%   - Optional 2-up or 4-up handout printing layouts.
+% ======================================================================
+
+\documentclass[11pt, aspectratio=169, handout]{beamer}
+
+% -------------------------------
+% Encoding, language, typography
+% -------------------------------
+\usepackage[utf8]{inputenc}   % Allows typing UTF-8 characters directly
+\usepackage[T1]{fontenc}      % Correct font encoding for European languages
+\usepackage[english]{babel}   % Sets document language for hyphenation and formatting
+\usepackage{lmodern}          % Loads the Latin Modern font (improved default LaTeX font)
+\usepackage{microtype}        % Improves character spacing and text alignment automatically
+\usepackage{comicneue}        % Comic Sans refined
+%\usepackage[sfdefault]{atkinson}
+%\usepackage{iwona}            % Humanist sans, friendly feel
+%\usepackage{kurier}           % Similar to Iwona, slightly rounder
+%\usepackage{aurical}          % Handwritten cursive style
+%\usepackage{opensans}         % Dyslexia-friendly, clean sans-serif
+%\usepackage{cabin}            % Dyslexia-friendly, humanist sans
+%\usepackage[sfdefault]{roboto}    % Dyslexia-friendly, excellent clarity
+%\usepackage[sfdefault]{FiraSans}  % Dyslexia-friendly, designed for screens
+
+% -------------------------------
+% Beamer theme and navigation
+% -------------------------------
+%\usetheme{Copenhagen}
+\setbeamercovered{transparent}
+\setbeamertemplate{headline}{}                % Remove header line
+\setbeamertemplate{footline}[frame number]    % Frame number only
+\setbeamertemplate{navigation symbols}{}      % Hide navigation icons
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip % This removes the default vertical space above the title text
+  % ht = space above title text, dp = space below title text (inside the bar)
+  \begin{beamercolorbox}[wd=\paperwidth, ht=2.1ex, dp=0.8ex, leftskip=0.3cm]{frametitle}%
+    \usebeamerfont{frametitle}\insertframetitle%
+  \end{beamercolorbox}%
+}
+% Custom bullet points
+\setbeamertemplate{itemize item}{\textcolor{black}{$\bullet$}}
+\setbeamertemplate{itemize subitem}{\textcolor{black}{$\b$}}
+\setbeamertemplate{itemize subsubitem}{\textcolor{black}{$\circ$}}
+
+% -------------------------------
+% Commonly used packages
+% -------------------------------
+\usepackage{amsmath, amsfonts, amsthm, amssymb} % Core tools for math equations, fonts, and symbols
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\usepackage{graphicx}                           % Allows inserting and scaling images
+\usepackage{xcolor}                             % Provides advanced text and background colors
+\usepackage{hyperref}                           % Creates clickable links and PDF bookmarks
+\usepackage{siunitx}                            % Formats numbers and physical SI units globally
+\usepackage{xspace}                             % Smartly handles spaces after your custom commands
+\sisetup{detect-all, per-mode=symbol, separate-uncertainty=true}
+\usepackage{pgfplots}                           % Draws high-quality data plots directly in LaTeX
+\pgfplotsset{compat=1.18}
+\usepackage{tikz}                               % Powerful drawing engine for vector graphics
+\usepackage[most]{tcolorbox}                    % Creates the advanced colored boxes for focus/theorems
+\usepackage{fontawesome5}                       % Gives access to FontAwesome icons (used in \warn / \info)
+%\usepackage{minted}                            % Advanced syntax highlighting for code (requires Python setup)
+\usepackage[safe]{tipa}                         % Phonetic characters ('safe' prevents math symbol crashes)
+
+% Optional: multi-slide handout layout
+\usepackage{pgfpages}                           % Combines multiple slides onto a single physical printed page
+% \pgfpagesuselayout{2 on 1}[a4paper, border shrink=5mm]
+% \pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm]
+
+% -------------------------------
+% Hyperlink settings
+% -------------------------------
+\hypersetup{
+  pdftitle={Title of the Lecture Series},
+  pdfauthor={The Lecturer's Name},
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=cyan,
+  citecolor=magenta
+}
+
+% -------------------------------
+% Custom colors
+% -------------------------------
+\colorlet{myblue}{black!45!blue!80}
+\colorlet{myred}{black!45!red!80}
+\colorlet{mygreen}{black!45!green!80}
+\colorlet{mycyan}{black!25!cyan}
+\colorlet{mygray}{black!75}
+
+% -------------------------------
+% Frame color shortcuts
+% -------------------------------
+\newcommand{\blueheader}{%
+  \setbeamercolor{frametitle}{bg=myblue, fg=white}%
+}
+\newcommand{\redheader}{%
+  \setbeamercolor{frametitle}{bg=myred, fg=white}%
+}
+\newcommand{\greenheader}{%
+  \setbeamercolor{frametitle}{bg=mygreen, fg=white}%
+}
+\newcommand{\cyanheader}{%
+  \setbeamercolor{frametitle}{bg=mycyan, fg=white}%
+}
+\newcommand{\grayheader}{%
+  \setbeamercolor{frametitle}{bg=mygray, fg=white}%
+}
+
+% -------------------------------
+% Warning and info macros
+% -------------------------------
+\newcommand{\warn}{%
+  \textcolor{red}{\faExclamationTriangle\ \textbf{Not part of the syllabus}}\xspace%
+}
+\newcommand{\warnCustomMsg}[2][red]{%
+  \textcolor{#1}{\faExclamationTriangle\ \textbf{#2}}\xspace%
+}
+\newcommand{\info}{%
+  \textcolor{blue}{\faInfoCircle\ \textbf{For your information}}\xspace%
+}
+\newcommand{\infoCustomMsg}[2][blue]{%
+  \textcolor{#1}{\faInfoCircle\ \textbf{#2}}\xspace%
+}
+
+% -------------------------------
+% tcolorbox environments (color-based names)
+% Usage: \begin{blue}{Title}...\end{blue}
+% -------------------------------
+\tcbset{
+  colback=white,
+  fonttitle=\bfseries,
+  breakable,
+  enhanced,
+  top=2pt,bottom=2pt,left=2pt,right=2pt,
+  boxsep=3pt
+}
+
+\newtcbtheorem{bluebox}{Definition}%
+{colframe=myblue}{bluebox}
+
+\newtcbtheorem[use counter from=bluebox]{redbox}{Theorem}%
+{colframe=myred}{redbox}
+
+\newtcbtheorem[use counter from=bluebox]{greenbox}{Example}%
+{colframe=mygreen}{greenbox}
+
+\newtcbtheorem[use counter from=bluebox]{cyanbox}{Exercise}%
+{colframe=mycyan}{cyanbox}
+
+\newtcbtheorem[use counter from=bluebox]{graybox}{Explore}%
+{colframe=mygray}{graybox}
+
+% Optionally number theorems on slides:
+% \setbeamertemplate{theorems}[numbered]
+
+% -------------------------------
+% Focus boxes with blue, red, green, cyan, gray background and no frame and no title with a simple command.
+% We use a numbers to lighten the basic colors for each color seperate here in the definition of the focus boxes.
+\newtcolorbox{bluefocus}{colback=myblue!15, colframe=white}
+\newtcolorbox{redfocus}{colback=myred!15, colframe=white}
+\newtcolorbox{greenfocus}{colback=mygreen!15, colframe=white}
+\newtcolorbox{cyanfocus}{colback=mycyan!15, colframe=white}
+\newtcolorbox{grayfocus}{colback=mygray!15, colframe=white}

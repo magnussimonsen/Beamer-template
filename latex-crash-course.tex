@@ -5,13 +5,13 @@
 % --- Slide 1: What is main.tex? ---
 \blueheader
 \begin{frame}{What is \texttt{main.tex}?}
-\begin{bluebox}{Role of \texttt{main.tex}}{}
+\begin{bluebox*}{Role of \texttt{main.tex}}{}
   \texttt{main.tex} is the \textbf{root file} of the project. It does two things:
   \begin{itemize}
     \item Sets up the \textbf{preamble}: loads packages, defines colors, macros, and environments.
     \item Pulls in \textbf{content files} with \texttt{\textbackslash include\{...\}}.
   \end{itemize}
-\end{bluebox}
+\end{bluebox*}
 \medskip
 You \textbf{never write slide content directly in} \texttt{main.tex} --- only setup goes here.
 \end{frame}
@@ -30,6 +30,12 @@ The very first line sets the document type:
   \item \texttt{11pt} --- base font size
   \item \texttt{aspectratio=169} --- widescreen 16:9 slides
   \item \texttt{handout} --- strips overlays/animations for printing
+  \begin{itemize}
+    \item Omit \texttt{handout} for on-screen presentations with animations.
+    \begin{itemize}
+      \item You can switch between modes by commenting/uncommenting this option.
+    \end{itemize}
+  \end{itemize}
 \end{itemize}
 \end{frame}
 

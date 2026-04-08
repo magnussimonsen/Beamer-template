@@ -1,1 +1,5 @@
-\beamer@slide {bluebox:T}{10}
+\beamer@slide {bluebox:def:finite}{15}
+\beamer@slide {redbox:thm:binomial}{16}
+\beamer@slide {greenbox:ex:deriv}{17}
+\beamer@slide {cyanbox:ex:integral}{18}
+\beamer@slide {graybox:ex:triangle}{19}

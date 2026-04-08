@@ -1,0 +1,24 @@
+\input{preamble}
+
+% ======================================================================
+% Document
+% ======================================================================
+\begin{document}
+
+% Example slide
+% \blueheader
+% \begin{frame}{Linear Transformations}
+%  \begin{bluebox}{Linear Transformation}{thm:linear}
+%    A mapping $T: V \to W$ is called
+%    \emph{linear} if it satisfies
+%    \[
+%      T(u+v) = T(u) + T(v), \qquad T(\alpha v) = \alpha T(v).
+%       \]
+%  \end{bluebox}
+% \end{frame}
+
+% Content modules
+\include{latex-crash-course}
+\include{template-}
+\include{abstract-linear-algebra}
+\end{document}
