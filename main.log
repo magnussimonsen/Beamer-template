@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.12)  8 APR 2026 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.12)  8 APR 2026 16:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -629,155 +629,30 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/comicneue\comicneue.sty (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count362
-))
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
-) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fira\FiraSans.sty
+Package: FiraSans 2022/09/17 (Bob Tennent and autoinst) Style file for Fira Sans fonts.
+ (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks50
+\XKV@tempa@toks=\toks51
 )
-Package: comicneue 2020/04/26 v1.2 Craig Rozynski's Comic Neue fonts
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1enc.def
-File: ly1enc.def 2022/06/11 v0.8 TeX 'n ANSI encoding (DPC/KB)
-Now handling font encoding LY1 ...
-... processing UTF-8 mapping file for font encoding LY1
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/base\ly1enc.dfu
-File: ly1enc.dfu 2022/06/07 v1.3c UTF-8 support
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0237 (decimal 567)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
-))
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 116.
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+\XKV@depth=\count362
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
+ (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+)
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count363
 \l__siunitx_number_exponent_fixed_int=\count364
@@ -814,7 +689,7 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen309
 \ar@mcellbox=\box87
 \extrarowheight=\dimen310
-\NC@list=\toks50
+\NC@list=\toks52
 \extratabsurround=\skip68
 \backup@length=\skip69
 \ar@cellbox=\box88
@@ -855,8 +730,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen313
 \pgffor@skip=\dimen314
-\pgffor@stack=\toks51
-\pgffor@toks=\toks52
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
 )) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
@@ -890,22 +765,22 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks53
-\t@pgfplots@tokb=\toks54
-\t@pgfplots@tokc=\toks55
+\t@pgfplots@toka=\toks55
+\t@pgfplots@tokb=\toks56
+\t@pgfplots@tokc=\toks57
 \pgfplots@tmpa=\dimen324
 \c@pgfplots@coordindex=\count386
 \c@pgfplots@scanlineindex=\count387
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks56
-\t@pgf@tokb=\toks57
-\t@pgf@tokc=\toks58
+\t@pgf@toka=\toks58
+\t@pgf@tokb=\toks59
+\t@pgf@tokc=\toks60
 (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count388
 ) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count389
-\t@pgfplotstable@a=\toks59
+\t@pgfplotstable@a=\toks61
 ) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count390
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
@@ -935,8 +810,8 @@ File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 Package: tcolorbox 2025/07/08 version 6.7.1 text color boxes
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks60
-\verbatim@line=\toks61
+\every@verbatim=\toks62
+\verbatim@line=\toks63
 \verbatim@in@stream=\read4
 ) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -999,7 +874,7 @@ Library (tcolorbox): 'tcblistings.code.tex' version '6.7.1'
 (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count401
 \lst@gtempboxa=\box108
-\lst@token=\toks62
+\lst@token=\toks64
 \lst@length=\count402
 \lst@currlwidth=\dimen342
 \lst@column=\count403
@@ -1040,9 +915,18 @@ File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.7.1'
-)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5.sty
+)) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5.sty (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-08-13 L3 programming layer (loader) 
+ (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count410
+))
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5-generic-helper.sty
+ (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5-mapping.def))) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.sty
 Package: tipa 2002/08/08 TIPA version 1.1
@@ -1052,45 +936,48 @@ Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 File: t3enc.def 2001/12/31 T3 encoding
 Now handling font encoding T3 ...
 ... no UTF-8 mapping file for font encoding T3
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 316.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 356.
-LaTeX Font Info:    Trying to load font information for T1+ComicNeue-TLF on input line 357.
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/comicneue\t1comicneue-tlf.fd
-File: T1ComicNeue-TLF.fd 2020/04/26 (autoinst) Font definitions for T1/ComicNeue-TLF.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 356.
+
+LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 357.
+(C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fira\t1firasans-osf.fd
+File: T1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraSans-OsF.
 )
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 357.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 357.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 357.
 ))
 LaTeX Encoding Info:    Redeclaring text command \textdotbreve (encoding ?) on input line 336.
 ) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfpages.sty
 Package: pgfpages 2011/01/05 ver 0.02
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count410
-\calc@Bcount=\count411
+\calc@Acount=\count411
+\calc@Bcount=\count412
 \calc@Adimen=\dimen346
 \calc@Bdimen=\dimen347
 \calc@Askip=\skip70
 \calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count412
+\calc@Ccount=\count413
 \calc@Cskip=\skip72
 )
-\pgf@logicalpages=\count413
-\pgf@firstshipout=\count414
-\pgf@lastshipout=\count415
-\pgf@currentshipout=\count416
-\pgf@cpn=\count417
-\pgf@shipoutnextto=\count418
+\pgf@logicalpages=\count414
+\pgf@firstshipout=\count415
+\pgf@lastshipout=\count416
+\pgf@currentshipout=\count417
+\pgf@cpn=\count418
+\pgf@shipoutnextto=\count419
 \pgfphysicalheight=\dimen348
 \pgfphysicalwidth=\dimen349
 \pgfpages@shipoutbox=\box110
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 87.
-\c@tcb@cnt@bluebox=\count419
+\c@tcb@cnt@bluebox=\count420
 ) (main.aux (latex-crash-course.aux) (template-showcase.aux) (abstract-linear-algebra.aux))
 \openout1 = `main.aux'.
 
@@ -1111,12 +998,6 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 6.
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
-File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
-)
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 6.
@@ -1161,17 +1042,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count420
+\scratchcounter=\count421
 \scratchdimen=\dimen350
 \scratchbox=\box111
-\nofMPsegments=\count421
-\nofMParguments=\count422
-\everyMPshowfont=\toks63
-\MPscratchCnt=\count423
+\nofMPsegments=\count422
+\nofMParguments=\count423
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count424
 \MPscratchDim=\dimen351
-\MPnumerator=\count424
-\makeMPintoPDFobject=\count425
-\everyMPtoPDFconversion=\toks64
+\MPnumerator=\count425
+\makeMPintoPDFobject=\count426
+\everyMPtoPDFconversion=\toks66
 ) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1188,45 +1069,45 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ComicNeue-TLF/m/n on input line 6.
+(Font)                  OT1/cmss/m/n --> OT1/FiraSans-OsF/m/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/ComicNeue-TLF/b/n on input line 6.
+(Font)                  OT1/cmss/b/n --> OT1/FiraSans-OsF/b/n on input line 6.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/ComicNeue-TLF/m/n --> T1/lmr/m/n on input line 6.
+(Font)                  OT1/FiraSans-OsF/m/n --> T1/lmr/m/n on input line 6.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 6.
+(Font)                  OT1/lmr/bx/n --> T1/FiraSans-OsF/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/ComicNeue-TLF/b/n on input line 6.
+(Font)                  OT1/lmr/bx/n --> T1/FiraSans-OsF/b/n on input line 6.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/ComicNeue-TLF/m/n on input line 6.
+(Font)                  OT1/lmss/m/n --> T1/FiraSans-OsF/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/ComicNeue-TLF/m/n on input line 6.
+(Font)                  OT1/lmss/bx/n --> T1/FiraSans-OsF/m/n on input line 6.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/ComicNeue-TLF/m/it on input line 6.
+(Font)                  OT1/lmr/m/it --> T1/FiraSans-OsF/m/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/ComicNeue-TLF/m/it on input line 6.
+(Font)                  OT1/lmr/bx/it --> T1/FiraSans-OsF/m/it on input line 6.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 6.
+(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/b/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 6.
+(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/b/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/ComicNeue-TLF/b/n --> T1/lmr/b/n on input line 6.
+(Font)                  OT1/FiraSans-OsF/b/n --> T1/lmr/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/ComicNeue-TLF/b/n --> T1/ComicNeue-TLF/b/n on input line 6.
+(Font)                  T1/FiraSans-OsF/b/n --> T1/FiraSans-OsF/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/n --> T1/ComicNeue-TLF/b/n on input line 6.
+(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/ComicNeue-TLF/m/it --> T1/ComicNeue-TLF/b/it on input line 6.
+(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/b/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 6.
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
@@ -1260,9 +1141,11 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ComicNeue-TLF' (encoding: T1).
+(microtype)             `FiraSans-OsF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+\c@mv@tabular=\count427
+\c@mv@boldtabular=\count428
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
@@ -1270,15 +1153,19 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-\c@lstlisting=\count426
+\c@lstlisting=\count429
 (main.nav)
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 6.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 6.
 \openout2 = `latex-crash-course.aux'.
 
  (latex-crash-course.tex
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 17.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 17.
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1289,20 +1176,26 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OT1+ComicNeue-TLF on input line 17.
- (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/comicneue\ot1comicneue-tlf.fd
-File: OT1ComicNeue-TLF.fd 2020/04/26 (autoinst) Font definitions for OT1/ComicNeue-TLF.
+LaTeX Font Info:    Trying to load font information for OT1+FiraSans-OsF on input line 17.
+ (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/fira\ot1firasans-osf.fd
+File: OT1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for OT1/FiraSans-OsF.
 )
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 17.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <10.95> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 17.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ComicNeue-TLF' (encoding: OT1).
+(microtype)             `FiraSans-OsF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 17.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 17.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <8> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <6> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 17.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 17.
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1333,56 +1226,92 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 17.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 17.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 17.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 17.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <6> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 17.
 
 
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <4> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 4.0pt on input line 17.
 [1
 
 
-{C:/Users/magnus.simonsen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/comicneue/a_upn2ip.enc}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 40.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 40.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 40.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 40.
+{C:/Users/magnus.simonsen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <10> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <5> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 40.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 40.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 40.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 40.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 40.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 40.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/n' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/n' on input line 40.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/m/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <5> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <5> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <9> not available
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 40.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/m/it' aliased to
-(Font)              `T1/ComicNeue-TLF/regular/it' on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 9.0pt on input line 40.
 
 
 [2
@@ -1438,7 +1367,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--215
 
 [13
 
-{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/comicneue/a_3f3vls.enc}])
+])
 \openout2 = `template-showcase.aux'.
 
  (template-showcase.tex
@@ -1452,7 +1381,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--215
 
 [15
 
-{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/comicneue/a_trnund.enc}]
+{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_337jzs.enc}]
+Underfull \hbox (badness 1259) in paragraph at lines 71--71
+[]\T1/FiraSans-OsF/regular/n/10.95 (+20) Same box with a counter shared
+ []
+
+
 
 [16
 
@@ -1461,6 +1395,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--215
 [17
 
 ]
+Underfull \hbox (badness 1052) in paragraph at lines 116--116
+[]\T1/FiraSans-OsF/bold/n/10.95 (+20) cyanfocus \T1/FiraSans-OsF/regular/n/10.95 (+20) --- well-suited for ex-er-
+ []
+
+
 
 [18
 
@@ -1476,22 +1415,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--215
 \openout2 = `abstract-linear-algebra.aux'.
 
  (abstract-linear-algebra.tex
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/b/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/b/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `OT1/ComicNeue-TLF/b/n' aliased to
-(Font)              `OT1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/it' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/it' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/it' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/it' on input line 20.
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/it' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/it' on input line 20.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 20.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <8> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 20.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/n' in size <6> not available
+(Font)              Font shape `OT1/FiraSans-OsF/bold/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 6.0pt on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <6> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 6.0pt on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
+(Font)              scaled to size 10.95pt on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
+(Font)              scaled to size 8.0pt on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <6> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
+(Font)              scaled to size 6.0pt on input line 20.
 
 
 [21
@@ -1520,8 +1475,10 @@ LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/it' aliased to
 [26
 
 ]
-LaTeX Font Info:    Font shape `T1/ComicNeue-TLF/b/n' aliased to
-(Font)              `T1/ComicNeue-TLF/bold/n' on input line 119.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 119.
 
 
 [27
@@ -1549,17 +1506,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53356 strings out of 468133
- 1296449 string characters out of 5425872
- 1750298 words of memory out of 5000000
- 80772 multiletter control sequences out of 15000+600000
- 752154 words of font info for 257 fonts, out of 8000000 for 9000
+ 53872 strings out of 468133
+ 1310536 string characters out of 5425872
+ 1758798 words of memory out of 5000000
+ 81290 multiletter control sequences out of 15000+600000
+ 1039736 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 133i,11n,126p,1042b,1323s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Bold.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-BoldItalic.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Italic.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Regular.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (28 pages, 258782 bytes).
+ 133i,11n,126p,1042b,1397s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Italic.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Regular.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (28 pages, 340743 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
+ 308 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)
  94395 words of extra memory for PDF output out of 106986 (max. 10000000)
 
