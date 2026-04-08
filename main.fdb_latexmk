@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1775658031.5811 "c:/Users/magnus.simonsen/Beamer-template/main.tex" "main.pdf" "main" 1775658036.26699 0
+["pdflatex"] 1775658438.28179 "c:/Users/magnus.simonsen/Beamer-template/main.tex" "main.pdf" "main" 1775658442.43401 0
   "C:/Users/magnus.simonsen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1775628256 91283 a5bbf2e9a7b18129902b2d5a54e4fbdd ""
   "C:/Users/magnus.simonsen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757671911 13262183 95000e6a9434f93950363674278b7201 ""
   "C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/comicneue/a_3f3vls.enc" 1587922042 2969 4605c06b7ee0a1cdc2365bfc88e33397 ""
@@ -357,17 +357,17 @@
   "C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "abstract-linear-algebra.aux" 1775658035 2008 a595228065e70277b2cf973986eb5f33 "pdflatex"
+  "abstract-linear-algebra.aux" 1775658442 2008 a595228065e70277b2cf973986eb5f33 "pdflatex"
   "abstract-linear-algebra.tex" 1775657540 5304 0697c45c8c03dc504c3c679dbca54bca ""
   "c:/Users/magnus.simonsen/Beamer-template/main.tex" 1775657582 652 dc08d188b333c5cce0c62456cb720fec ""
-  "latex-crash-course.aux" 1775658035 2603 f32c86418270c46d17496e05b931839e "pdflatex"
+  "latex-crash-course.aux" 1775658441 2603 f32c86418270c46d17496e05b931839e "pdflatex"
   "latex-crash-course.tex" 1775658009 9594 07ded031b09757085a4c1b6ea0b051b7 ""
-  "main.aux" 1775658035 695 804f08b286690f6f2747611baa5fdca2 "pdflatex"
-  "main.nav" 1775658035 2783 f8b0d1eaf383f71e4268670ac899f7e1 "pdflatex"
-  "main.out" 1775658034 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1775658442 695 804f08b286690f6f2747611baa5fdca2 "pdflatex"
+  "main.nav" 1775658442 2783 f8b0d1eaf383f71e4268670ac899f7e1 "pdflatex"
+  "main.out" 1775658440 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1775657582 652 dc08d188b333c5cce0c62456cb720fec ""
-  "preamble.tex" 1775657333 7304 7c51261a3bbb0273312b35c8e80a70ef ""
-  "template-showcase.aux" 1775658035 2579 11acaaa92566060aa565d68e6075003b "pdflatex"
+  "preamble.tex" 1775658437 7275 faabdc64b5e058d11a07ed0574588552 ""
+  "template-showcase.aux" 1775658441 2579 11acaaa92566060aa565d68e6075003b "pdflatex"
   "template-showcase.tex" 1775658030 5280 bc4c110ce885539887a2400ad7b5f67e ""
   (generated)
   "abstract-linear-algebra.aux"

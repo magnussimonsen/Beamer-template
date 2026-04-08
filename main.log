@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.12)  8 APR 2026 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.12)  8 APR 2026 16:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1551,13 +1551,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  53356 strings out of 468133
  1296449 string characters out of 5425872
- 1750356 words of memory out of 5000000
+ 1750298 words of memory out of 5000000
  80772 multiletter control sequences out of 15000+600000
  752154 words of font info for 257 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  133i,11n,126p,1042b,1323s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Bold.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-BoldItalic.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Italic.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/rozynski/comicneue/ComicNeue-Regular.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (28 pages, 258866 bytes).
+Output written on main.pdf (28 pages, 258782 bytes).
 PDF statistics:
  309 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)

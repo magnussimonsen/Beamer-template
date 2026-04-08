@@ -1,0 +1,30 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.lol
+*.maf
+*.mtc
+*.mtc0
+*.bcf
+*.run.xml
+*.dvi
+*.xdv
+
+# Compiled output (keep PDF in version control by removing this if desired)
+*.pdf
