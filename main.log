@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  10 MAY 2026 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.10)  10 MAY 2026 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -548,7 +548,7 @@ LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) o
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
 \U@D=\dimen302
-\l@unhyphenated=\language90
+\l@unhyphenated=\language7
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3974.
@@ -558,12 +558,16 @@ Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 4330.
  (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language35). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language35). Reported on input line 108.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
 )) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1354,12 +1358,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53522 strings out of 467533
- 1286600 string characters out of 5422138
- 1766764 words of memory out of 5000000
- 81366 multiletter control sequences out of 15000+600000
+ 53524 strings out of 469438
+ 1286620 string characters out of 5468410
+ 1761871 words of memory out of 5000000
+ 81121 multiletter control sequences out of 15000+600000
  998571 words of font info for 200 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 59 hyphenation exceptions out of 8191
  133i,11n,126p,1025b,1090s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on main.pdf (8 pages, 182892 bytes).
