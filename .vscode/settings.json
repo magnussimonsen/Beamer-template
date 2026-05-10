@@ -7,20 +7,15 @@
   ],
   "latex-workshop.latex.recipes": [
     {
-      "name": "pdflatex x2 (host)",
-      "tools": [
-        "pdflatex-host",
-        "pdflatex-host"
-      ]
+      "name": "pdflatex x2",
+      "tools": ["pdflatex", "pdflatex"]
     }
   ],
   "latex-workshop.latex.tools": [
     {
-      "name": "pdflatex-host",
-      "command": "/usr/bin/flatpak-spawn",
+      "name": "pdflatex",
+      "command": "pdflatex",
       "args": [
-        "--host",
-        "pdflatex",
         "-synctex=1",
         "-interaction=nonstopmode",
         "-file-line-error",
