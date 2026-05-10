@@ -1,0 +1,32 @@
+{
+  "latex-workshop.latex.search.rootFiles.include": [
+    "main.tex"
+  ],
+  "latex-workshop.latex.search.rootFiles.exclude": [
+    "**/preamble.tex"
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex x2 (host)",
+      "tools": [
+        "pdflatex-host",
+        "pdflatex-host"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex-host",
+      "command": "/usr/bin/flatpak-spawn",
+      "args": [
+        "--host",
+        "pdflatex",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "first"
+}
